@@ -1,6 +1,6 @@
 [![Runbot Status](https://runbot.odoo-community.org/runbot/badge/flat/162/8.0.svg)](https://runbot.odoo-community.org/runbot/repo/github-com-oca-web-162)
-[![Build Status](https://travis-ci.org/OCA/web.svg?branch=8.0)](https://travis-ci.org/OCA/web)
-[![Coverage Status](https://coveralls.io/repos/OCA/web/badge.png?branch=8.0)](https://coveralls.io/r/OCA/web?branch=8.0)
+[![Build Status](https://travis-ci.org/zeroincombenze/web.svg?branch=8.0)](https://travis-ci.org/zeroincombenze/web)
+[![Coverage Status](https://coveralls.io/repos/zeroincombenze/web/badge.png?branch=8.0)](https://coveralls.io/r/zeroincombenze/web?branch=8.0)
 
 Web addons for Odoo
 ===================
