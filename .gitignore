@@ -53,3 +53,6 @@ docs/_build/
 # Backup files
 *~
 *.swp
+stdout.log
+*.oca
+*.z0i
