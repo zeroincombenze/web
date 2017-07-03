@@ -2,30 +2,28 @@
    :target: http://www.gnu.org/licenses/lgpl-3.0-standalone.html
    :alt: License: LGPL-3
 
-===========================
-Web Widget - Image Download
-===========================
+=========================
+Web Widget - Image WebCam
+=========================
 
-This module was written to extend the functionality of the image widget and allows to download it.
+This module extends the functionality of the image widget and allows to take snapshots with WebCam.
 
-Usage
-=====
+Configuration
+=============
 
-To use this module, you need to:
+By default, the module works with all `major browsers
+<https://github.com/jhuckaby/webcamjs#browser-support>`_.
 
-#. Go to the section `Contacts`.
-#. Click on a contact.
-#. Edit the contact.
-#. Click the `Download` button (between `Edit` and `Clear`).
+An important note for **Chrome 47+** users - this module only works with websites delivered over SSL / HTTPS.
+Visit this for `more info
+<https://github.com/jhuckaby/webcamjs#important-note-for-chrome-47>`_.
 
-.. image:: https://odoo-community.org/website/image/ir.attachment/5784_f2813bd/datas
-   :alt: Try me on Runbot
-   :target: https://runbot.odoo-community.org/runbot/162/10.0
+But, If you still want this module to work with websites without SSL / HTTPS.
+Here is the steps to do it easily (Always run in Adobe Flash fallback mode, but it is not desirable).
 
-Known Issues / Roadmap
-======================
+Set the configuration parameter ``web_widget_image_webcam.flash_fallback_mode`` to ``1``
 
-* In order to work correctly, this widget has to detect image type, the server should include this information in the `Content-Type` header. Right now, odoo is not doing so, but a fix has been `proposed <https://github.com/odoo/odoo/pull/12918>`_.
+Its done! Now this module also work with websites without SSL / HTTPS.
 
 Bug Tracker
 ===========
@@ -41,8 +39,7 @@ Credits
 Contributors
 ------------
 
-* Flavio Corpa <flavio.corpa@tecnativa.com>
-* Jairo Llopis <jairo.llopis@tecnativa.com>
+* Siddharth Bhalgami <siddharth.bhalgami@techreceptives.com>
 * Kaushal Prajapati <kbprajapati@live.com>
 
 Maintainer
