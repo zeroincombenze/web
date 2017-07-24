@@ -3,12 +3,15 @@
 [![Coverage Status](https://coveralls.io/repos/github/zeroincombenze/web/badge.svg?branch=10.0)](https://coveralls.io/github/zeroincombenze/web?branch=10.0)
 [![codecov](https://codecov.io/gh/zeroincombenze/web/branch/10.0/graph/badge.svg)](https://codecov.io/gh/zeroincombenze/web/branch/10.0)
 [![OCA_project](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-oca-10.svg)](https://github.com/OCA/web/tree/10.0)
-[![Tech Doc](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-docs-10.svg)](http://wiki.zeroincombenze.org/en/Odoo/dev/10.0)
-[![Help](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-help-10.svg)](http://wiki.zeroincombenze.org/en/Odoo/10.0/)
+[![Tech Doc](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-docs-10.svg)](http://wiki.zeroincombenze.org/en/Odoo/10.0/dev)
+[![Help](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-help-10.svg)](http://wiki.zeroincombenze.org/en/Odoo/10.0/man/)
 [![try it](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-10.svg)](http://erp10.zeroincombenze.it)
 
+
+[![en](http://www.shs-av.com/wp-content/en_US.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
+================================================================================================
+
 Web addons for Odoo
-===================
 
 This project aims to deal with modules related to the webclient of Odoo. You'll find modules that:
 
@@ -20,7 +23,6 @@ This project aims to deal with modules related to the webclient of Odoo. You'll 
 [//]: # (addons)
 
 Available addons
-----------------
 addon | version | summary
 --- | --- | ---
 [help_online](help_online/) | 10.0.1.0.0 | Help Online
@@ -59,7 +61,6 @@ addon | version | summary
 
 
 Unported addons
----------------
 addon | version | summary
 --- | --- | ---
 [help_popup](help_popup/) | 8.0.0.5.0 (unported) | Help Popup
