@@ -57,3 +57,4 @@ docs/_build/
 stdout.log
 *.oca
 *.z0i
+.gitrepname

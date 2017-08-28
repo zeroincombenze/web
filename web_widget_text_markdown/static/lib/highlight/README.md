@@ -1,6 +1,18 @@
-# Highlight.js
+[![Build Status](https://travis-ci.org/zeroincombenze/highlight.svg?branch=10.0)](https://travis-ci.org/zeroincombenze/highlight)
+[![license agpl](https://img.shields.io/badge/licence-AGPL--3-blue.svg)](http://www.gnu.org/licenses/agpl-3.0.html)
+[![Coverage Status](https://coveralls.io/repos/github/zeroincombenze/highlight/badge.svg?branch=10.0)](https://coveralls.io/github/zeroincombenze/highlight?branch=10.0)
+[![codecov](https://codecov.io/gh/zeroincombenze/highlight/branch/10.0/graph/badge.svg)](https://codecov.io/gh/zeroincombenze/highlight/branch/10.0)
+[![OCA_project](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-oca-10.svg)](https://github.com/OCA/highlight/tree/10.0)
+[![Tech Doc](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-docs-10.svg)](http://wiki.zeroincombenze.org/en/Odoo/10.0/dev)
+[![Help](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-help-10.svg)](http://wiki.zeroincombenze.org/en/Odoo/10.0/man/)
+[![try it](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-10.svg)](http://erp10.zeroincombenze.it)
 
-[![Build Status](https://travis-ci.org/isagalaev/highlight.js.svg?branch=master)](https://travis-ci.org/isagalaev/highlight.js)
+
+[![en](http://www.shs-av.com/wp-content/en_US.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
+
+# Highlight.js
+==============
+
 
 Highlight.js is a syntax highlighter written in JavaScript. It works in the
 browser as well as on the server. It works with pretty much any markup,
@@ -99,3 +111,27 @@ Authors and contributors are listed in the [AUTHORS.en.txt][9] file.
 [8]: http://highlightjs.readthedocs.org/en/latest/css-classes-reference.html
 [9]: https://github.com/isagalaev/highlight.js/blob/master/AUTHORS.en.txt
 [10]: https://github.com/isagalaev/highlight.js/blob/master/LICENSE
+
+[//]: # (copyright)
+
+----
+
+**Odoo** is a trademark of [Odoo S.A.](https://www.odoo.com/) (formerly OpenERP, formerly TinyERP)
+
+**OCA**, or the [Odoo Community Association](http://odoo-community.org/), is a nonprofit organization whose
+mission is to support the collaborative development of Odoo features and
+promote its widespread use.
+
+**zeroincombenze®** is a trademark of [SHS-AV s.r.l.](http://www.shs-av.com/)
+which distributes and promotes **Odoo** ready-to-use on its own cloud infrastructure.
+[Zeroincombenze® distribution](http://wiki.zeroincombenze.org/en/Odoo)
+is mainly designed for Italian law and markeplace.
+Everytime, every Odoo DB and customized code can be deployed on local server too.
+
+[//]: # (end copyright)
+
+[//]: # (addons)
+
+[//]: # (end addons)
+
+[![chat with us](https://www.shs-av.com/wp-content/chat_with_us.gif)](https://tawk.to/85d4f6e06e68dd4e358797643fe5ee67540e408b)
