@@ -8,7 +8,7 @@
 [![try it](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-10.svg)](http://erp10.zeroincombenze.it)
 
 
-[![en](http://www.shs-av.com/wp-content/en_US.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
+[![en](https://github.com/zeroincombenze/grymb/blob/master/flags/en_US.png)](https://www.facebook.com/groups/openerp.italia/)
 
     :alt: License: AGPL-3
 =========================
@@ -21,8 +21,10 @@ The counters are updated periodically, so users will also be notified if there a
 Installation
 ------------
 
+
 Configuration
 -------------
+
 
 
 To configure the update frequency, set the configuration parameter `web_menu_navbar_needaction.refresh_timeout` to the amount of milliseconds after which the counters should be updated. Don't do this too often, as this will cause a lot of queries to the database. The default it 600000, which is equivalent to 10 minutes.
@@ -30,6 +32,8 @@ To configure the update frequency, set the configuration parameter `web_menu_nav
 To disable updates, set the parameter to 0.
 
 Usage
+-----
+
 -----
 
 =====
@@ -45,8 +49,10 @@ For further information, please visit:
 Known issues / Roadmap
 ----------------------
 
+
 Bug Tracker
 -----------
+
 
 
 Bugs are tracked on `GitHub Issues <https://github.com/OCA/web/issues>`_.
@@ -58,9 +64,12 @@ Credits
 -------
 
 
+
 [![Odoo Italia Associazione]]
 
+
 ### Contributors
+
 
 
 * Holger Brunn <hbrunn@therp.nl>
@@ -68,6 +77,8 @@ Credits
 ### Funders
 
 ### Maintainer
+
+
 
 
 .. image:: https://odoo-community.org/logo.png

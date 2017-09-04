@@ -8,7 +8,7 @@
 [![try it](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-10.svg)](http://erp10.zeroincombenze.it)
 
 
-[![en](http://www.shs-av.com/wp-content/en_US.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
+[![en](https://github.com/zeroincombenze/grymb/blob/master/flags/en_US.png)](https://www.facebook.com/groups/openerp.italia/)
 
    :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
 ================================================================
@@ -26,10 +26,12 @@ Installation
 ------------
 
 
+
 Install it the regular way.
 
 Configuration
 -------------
+
 
 
 After installation, all many2one and reference fields will be clickable
@@ -37,6 +39,8 @@ by default. You can change this in *Configuration > Technical > Parameters > Sys
 parameter with name `web_tree_many2one_clickable.default` setting it to `false`.
 
 Usage
+-----
+
 -----
 
 =====
@@ -61,8 +65,10 @@ need to disable one field, then use `widget="many2one_unclickable"`
 Known issues / Roadmap
 ----------------------
 
+
 Bug Tracker
 -----------
+
 
 
 Bugs are tracked on `GitHub Issues
@@ -75,9 +81,12 @@ Credits
 -------
 
 
+
 [![Odoo Italia Associazione]]
 
+
 ### Contributors
+
 
 
 * Therp BV
@@ -88,6 +97,8 @@ Credits
 ### Funders
 
 ### Maintainer
+
+
 
 
 .. image:: https://odoo-community.org/logo.png

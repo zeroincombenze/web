@@ -8,7 +8,7 @@
 [![try it](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-10.svg)](http://erp10.zeroincombenze.it)
 
 
-[![en](http://www.shs-av.com/wp-content/en_US.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
+[![en](https://github.com/zeroincombenze/grymb/blob/master/flags/en_US.png)](https://www.facebook.com/groups/openerp.italia/)
 
    :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
 ================================================================
@@ -39,10 +39,14 @@ hacks.
 Installation
 ------------
 
+
 Configuration
 -------------
 
+
 Usage
+-----
+
 -----
 
 =====
@@ -154,6 +158,7 @@ Known issues / Roadmap
 ----------------------
 
 
+
 * It would be worth trying to instantiate the proper field widget and let it render the input
 * Let the widget deal with the missing values of the full Cartesian product,
   instead of being forced to pre-fill all the possible values.
@@ -171,6 +176,7 @@ Bug Tracker
 -----------
 
 
+
 Bugs are tracked on `GitHub Issues
 <https://github.com/OCA/web/issues>`_. In case of trouble, please
 check there if your issue has already been reported. If you spotted it first,
@@ -180,9 +186,12 @@ Credits
 -------
 
 
+
 [![Odoo Italia Associazione]]
 
+
 ### Contributors
+
 
 
 * Holger Brunn <hbrunn@therp.nl>
@@ -191,6 +200,8 @@ Credits
 ### Funders
 
 ### Maintainer
+
+
 
 
 .. image:: https://odoo-community.org/logo.png

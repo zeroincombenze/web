@@ -8,7 +8,7 @@
 [![try it](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-10.svg)](http://erp10.zeroincombenze.it)
 
 
-[![en](http://www.shs-av.com/wp-content/en_US.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
+[![en](https://github.com/zeroincombenze/grymb/blob/master/flags/en_US.png)](https://www.facebook.com/groups/openerp.italia/)
 
    :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
 ================================================================
@@ -26,8 +26,10 @@ More info about favicon: https://en.wikipedia.org/wiki/Favicon
 Installation
 ------------
 
+
 Configuration
 -------------
+
 
 
 Upload your favicon (16x16, 32x32, 64x64 or "as big as possible") on the
@@ -49,6 +51,8 @@ To allow a user to edit the favicon it has to be member of group "Administration
 Usage
 -----
 
+-----
+
 =====
 
 .. image:: https://odoo-community.org/website/image/ir.attachment/5784_f2813bd/datas
@@ -57,6 +61,7 @@ Usage
 
 Known issues / Roadmap
 ----------------------
+
 
 
 * Allow to upload some big icon (preferrably SVG or the like) and generate
@@ -70,6 +75,7 @@ Bug Tracker
 -----------
 
 
+
 Bugs are tracked on `GitHub Issues <https://github.com/OCA/web/issues>`_.
 In case of trouble, please check there if your issue has already been reported.
 If you spotted it first, help us smashing it by providing a detailed and welcomed feedback
@@ -81,9 +87,12 @@ Credits
 -------
 
 
+
 [![Odoo Italia Associazione]]
 
+
 ### Contributors
+
 
 
 * Holger Brunn <hbrunn@therp.nl>
@@ -93,6 +102,8 @@ Credits
 ### Funders
 
 ### Maintainer
+
+
 
 
 .. image:: https://odoo-community.org/logo.png

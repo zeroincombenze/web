@@ -8,7 +8,7 @@
 [![try it](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-10.svg)](http://erp10.zeroincombenze.it)
 
 
-[![en](http://www.shs-av.com/wp-content/en_US.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
+[![en](https://github.com/zeroincombenze/grymb/blob/master/flags/en_US.png)](https://www.facebook.com/groups/openerp.italia/)
 
     :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
 =================================================================
@@ -34,10 +34,14 @@ Note: When updating the page prefix parameters, the record rules must be
 Installation
 ------------
 
+
 Configuration
 -------------
 
+
 Usage
+-----
+
 -----
 
 =====
@@ -51,6 +55,7 @@ Known issues / Roadmap
 ----------------------
 
 
+
 Even if the generated  urls to the documentation contains an anchor (website/hel-xx#view_type),
 it's no more possible to insert/edit anchors elements into the website since this functionnality is not supported
 by the new html editor in Odoo 10.0 (summernote).
@@ -58,6 +63,7 @@ by the new html editor in Odoo 10.0 (summernote).
 
 Bug Tracker
 -----------
+
 
 
 Bugs are tracked on `GitHub Issues
@@ -69,9 +75,12 @@ Credits
 -------
 
 
+
 [![Odoo Italia Associazione]]
 
+
 ### Contributors
+
 
 
 * Laurent Mignon <laurent.mignon@acsone.eu>
@@ -81,6 +90,8 @@ Credits
 ### Funders
 
 ### Maintainer
+
+
 
 
 .. image:: https://odoo-community.org/logo.png

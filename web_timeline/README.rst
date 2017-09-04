@@ -8,7 +8,7 @@
 [![try it](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-10.svg)](http://erp10.zeroincombenze.it)
 
 
-[![en](http://www.shs-av.com/wp-content/en_US.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
+[![en](https://github.com/zeroincombenze/grymb/blob/master/flags/en_US.png)](https://www.facebook.com/groups/openerp.italia/)
 
     :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
 =================================================================
@@ -24,8 +24,10 @@ http://visjs.org/timeline_examples.html
 Installation
 ------------
 
+
 Configuration
 -------------
+
 
 
 You need to define a view with the tag <timeline> as base element. These are
@@ -76,6 +78,8 @@ Example:
 Usage
 -----
 
+-----
+
 =====
 
 For accessing the timeline view, you have to click on the button with the clock
@@ -115,12 +119,14 @@ Known issues / Roadmap
 ----------------------
 
 
+
 * Implement support for vis.js timeline range item addition (with Ctrl key
   pressed).
 * Implement a more efficient way of refreshing timeline after a record update.
 
 Bug Tracker
 -----------
+
 
 
 Bugs are tracked on `GitHub Issues
@@ -132,13 +138,16 @@ Credits
 -------
 
 
+
 Images
 
 * Odoo Community Association: `Icon <https://github.com/OCA/maintainer-tools/blob/master/template/module/static/description/icon.svg>`_.
 
 [![Odoo Italia Associazione]]
 
+
 ### Contributors
+
 
 
 * Laurent Mignon <laurent.mignon@acsone.eu>
@@ -149,6 +158,8 @@ Images
 ### Funders
 
 ### Maintainer
+
+
 
 
 .. image:: https://odoo-community.org/logo.png

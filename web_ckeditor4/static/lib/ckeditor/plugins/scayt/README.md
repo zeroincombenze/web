@@ -8,7 +8,7 @@
 [![try it](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-10.svg)](http://erp10.zeroincombenze.it)
 
 
-[![en](http://www.shs-av.com/wp-content/en_US.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
+[![en](https://github.com/zeroincombenze/grymb/blob/master/flags/en_US.png)](https://www.facebook.com/groups/openerp.italia/)
 
 CKEditor SCAYT Plugin
 ======================
@@ -19,6 +19,7 @@ SCAYT is a "installation-less", using the web-services of [WebSpellChecker.net](
 
 Installation
 ------------
+
 
 
 1. Clone/copy this repository contents in a new "plugins/scayt" folder in your CKEditor installation.

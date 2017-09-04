@@ -8,7 +8,7 @@
 [![try it](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-10.svg)](http://erp10.zeroincombenze.it)
 
 
-[![en](http://www.shs-av.com/wp-content/en_US.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
+[![en](https://github.com/zeroincombenze/grymb/blob/master/flags/en_US.png)](https://www.facebook.com/groups/openerp.italia/)
 
 .. image:: https://img.shields.io/badge/licence-LGPL--3-blue.svg
 ================================================================
@@ -23,10 +23,14 @@ the brand new interface that will be found in Odoo 11.0.
 Installation
 ------------
 
+
 Configuration
 -------------
 
+
 Usage
+-----
+
 -----
 
 =====
@@ -50,11 +54,13 @@ Known issues / Roadmap
 ----------------------
 
 
+
 * This addon replaces the built-in ``char_domain`` widget, so it can break
   compatibility with other addons that use or extend it.
 
 Bug Tracker
 -----------
+
 
 
 Bugs are tracked on `GitHub Issues
@@ -66,6 +72,7 @@ Credits
 -------
 
 
+
 Most code copied from https://github.com/odoo/odoo/tree/68176d80ad6053f52ed1c7bcf294ab3664986c46/addons/web/static/src
 
 Images
@@ -74,7 +81,9 @@ Images
 
 [![Odoo Italia Associazione]]
 
+
 ### Contributors
+
 
 
 * Odoo SA <https://www.odoo.com>
@@ -83,6 +92,8 @@ Images
 ### Funders
 
 ### Maintainer
+
+
 
 
 .. image:: https://odoo-community.org/logo.png
