@@ -8,7 +8,7 @@
 [![try it](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-8.svg)](http://erp8.zeroincombenze.it)
 
 
-[![en](http://www.shs-av.com/wp-content/en_US.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
+[![en](https://github.com/zeroincombenze/grymb/blob/master/flags/en_US.png)](https://www.facebook.com/groups/openerp.italia/)
 
 Clickable many2one fields for tree views
 ========================================
@@ -23,10 +23,12 @@ Installation
 ------------
 
 
+
 Install it the regular way.
 
 Configuration
 -------------
+
 
 
 If you want to have all many2one and reference fields clickable by default, you
@@ -35,6 +37,8 @@ a new parameter with name `web_tree_many2one_clickable.default` and with value
 `true`.
 
 Usage
+-----
+
 -----
 
 =====
@@ -52,6 +56,7 @@ Known issues / Roadmap
 ----------------------
 
 
+
 * You cannot deactivate clickable behaviour for an specific many2one field if
   you configure the system parameter.
 * The value of the system parameter is retrieved for each many2one field
@@ -60,6 +65,7 @@ Known issues / Roadmap
 
 Bug Tracker
 -----------
+
 
 
 Bugs are tracked on `GitHub Issues <https://github.com/OCA/web/issues>`_.
@@ -72,9 +78,12 @@ Credits
 -------
 
 
+
 [![Odoo Italia Associazione]]
 
+
 ### Contributors
+
 
 
 * Therp BV
@@ -83,6 +92,8 @@ Credits
 ### Funders
 
 ### Maintainer
+
+
 
 
 .. image:: http://odoo-community.org/logo.png

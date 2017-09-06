@@ -8,7 +8,7 @@
 [![try it](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-8.svg)](http://erp8.zeroincombenze.it)
 
 
-[![en](http://www.shs-av.com/wp-content/en_US.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
+[![en](https://github.com/zeroincombenze/grymb/blob/master/flags/en_US.png)](https://www.facebook.com/groups/openerp.italia/)
 
 .. image:: https://img.shields.io/badge/licence-AGPL--3-blue.svg
 ================================================================
@@ -23,8 +23,10 @@ The counters are updated periodically, so users will also be notified if there a
 Installation
 ------------
 
+
 Configuration
 -------------
+
 
 
 To configure the update frequency, set the configuration parameter `web_menu_navbar_needaction.refresh_timeout` to the amount of milliseconds after which the counters should be updated. Don't do this too often, as this will cause a lot of queries to the database. The default it 600000, which is equivalent to 10 minutes.
@@ -34,6 +36,8 @@ To disable updates, set the parameter to 0.
 For more fine-grained control over the menus, you can turn off needaction for a menu by setting its field `needaction` to `False`, or in case you need a different needaction domain, set `needaction_domain` on the menuitem to the domain you need. A side effect of this is that you can use this addon to add needaction capabilities to any model, independent of it implementing the respective mixin by simply filling in your domain there.
 
 Usage
+-----
+
 -----
 
 =====
@@ -49,8 +53,10 @@ For further information, please visit:
 Known issues / Roadmap
 ----------------------
 
+
 Bug Tracker
 -----------
+
 
 
 Bugs are tracked on `GitHub Issues <https://github.com/OCA/web/issues>`_.
@@ -62,9 +68,12 @@ Credits
 -------
 
 
+
 [![Odoo Italia Associazione]]
 
+
 ### Contributors
+
 
 
 * Holger Brunn <hbrunn@therp.nl>
@@ -72,6 +81,8 @@ Credits
 ### Funders
 
 ### Maintainer
+
+
 
 
 .. image:: https://odoo-community.org/logo.png

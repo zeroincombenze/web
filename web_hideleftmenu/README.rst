@@ -8,7 +8,7 @@
 [![try it](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-8.svg)](http://erp8.zeroincombenze.it)
 
 
-[![en](http://www.shs-av.com/wp-content/en_US.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
+[![en](https://github.com/zeroincombenze/grymb/blob/master/flags/en_US.png)](https://www.facebook.com/groups/openerp.italia/)
 
 .. image:: https://img.shields.io/badge/licence-AGPL--3-blue.svg
 ================================================================
@@ -23,10 +23,14 @@ It is useful on small screens or tree views with many columns.
 Installation
 ------------
 
+
 Configuration
 -------------
 
+
 Usage
+-----
+
 -----
 
 =====
@@ -43,8 +47,10 @@ To use this module, you need to:
 Known issues / Roadmap
 ----------------------
 
+
 Bug Tracker
 -----------
+
 
 
 Bugs are tracked on `GitHub Issues
@@ -59,6 +65,7 @@ web_hideleftmenu%0Aversion:%20
 Credits
 -------
 
+
 Original module by Vauxoo, Migrated to V8.0 by Ahmet Altinisik
 
 Images
@@ -68,7 +75,9 @@ Images
 
 [![Odoo Italia Associazione]]
 
+
 ### Contributors
+
 
 * Nhomar Hernández <nhomar@vauxoo.com>
 * Ahmet Altinisik <aaltinisik@altinkaya.com.tr>
@@ -77,6 +86,8 @@ Images
 ### Funders
 
 ### Maintainer
+
+
 
 
 .. image:: https://odoo-community.org/logo.png

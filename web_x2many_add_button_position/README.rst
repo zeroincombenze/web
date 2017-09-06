@@ -8,7 +8,7 @@
 [![try it](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-8.svg)](http://erp8.zeroincombenze.it)
 
 
-[![en](http://www.shs-av.com/wp-content/en_US.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
+[![en](https://github.com/zeroincombenze/grymb/blob/master/flags/en_US.png)](https://www.facebook.com/groups/openerp.italia/)
 
 .. image:: https://img.shields.io/badge/licence-AGPL--3-blue.svg
 ================================================================
@@ -22,8 +22,10 @@ This module moves the ``Add an item`` button of x2many fields to the top or bott
 Installation
 ------------
 
+
 Configuration
 -------------
+
 
 
 To configure this module, you need to:
@@ -40,6 +42,8 @@ Example::
 Usage
 -----
 
+-----
+
 =====
 
 This module has no new visible aspect.
@@ -47,8 +51,10 @@ This module has no new visible aspect.
 Known issues / Roadmap
 ----------------------
 
+
 Bug Tracker
 -----------
+
 
 
 Bugs are tracked on `GitHub Issues
@@ -60,9 +66,12 @@ Credits
 -------
 
 
+
 [![Odoo Italia Associazione]]
 
+
 ### Contributors
+
 
 
 * Dennis Sluijk
@@ -70,6 +79,8 @@ Credits
 ### Funders
 
 ### Maintainer
+
+
 
 
 .. image:: https://odoo-community.org/logo.png

@@ -8,7 +8,7 @@
 [![try it](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-8.svg)](http://erp8.zeroincombenze.it)
 
 
-[![en](http://www.shs-av.com/wp-content/en_US.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
+[![en](https://github.com/zeroincombenze/grymb/blob/master/flags/en_US.png)](https://www.facebook.com/groups/openerp.italia/)
 
 .. image:: https://img.shields.io/badge/licence-AGPL--3-blue.svg
 ================================================================
@@ -25,11 +25,13 @@ Installation
 ------------
 
 
+
 It was tested on Odoo 8.0 branch.
 
 
 Configuration
 -------------
+
 
 
 Go to the action of your choice to add some help content
@@ -40,6 +42,8 @@ should be set to any value.
 
 
 Usage
+-----
+
 -----
 
 =====
@@ -63,8 +67,10 @@ Help popup is more like an embedded help that use power users for end users.
 Known issues / Roadmap
 ----------------------
 
+
 Bug Tracker
 -----------
+
 
 
 Bugs are tracked on `GitHub Issues <https://github.com/OCA/web/issues>`_.
@@ -77,9 +83,12 @@ Credits
 -------
 
 
+
 [![Odoo Italia Associazione]]
 
+
 ### Contributors
+
 
 
 * Sylvain Calador <sylvain.calador@akretion.com>
@@ -93,6 +102,8 @@ https://www.iconfinder.com/Vecteezy
 ### Funders
 
 ### Maintainer
+
+
 
 
 .. image:: https://odoo-community.org/logo.png
