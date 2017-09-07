@@ -8,7 +8,7 @@
 [![try it](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-7.svg)](http://erp7.zeroincombenze.it)
 
 
-[![en](http://www.shs-av.com/wp-content/en_US.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
+[![en](https://github.com/zeroincombenze/grymb/blob/master/flags/en_US.png)](https://www.facebook.com/groups/openerp.italia/)
 
 ## Really Simple Color Picker 
 ==============================
@@ -102,24 +102,33 @@ Let us know how you are using Really Simple Color Picker...
 Installation
 ------------
 
+
 Configuration
 -------------
 
+
 Usage
+-----
+
 -----
 
 Known issues / Roadmap
 ----------------------
 
+
 Bug Tracker
 -----------
+
 
 Credits
 -------
 
+
 [![Odoo Italia Associazione]]
 
+
 ### Contributors
+
 
 
 * Lakshan Perera - http://laktek.com
