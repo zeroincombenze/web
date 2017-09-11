@@ -26,10 +26,12 @@ Installation
 
 
 
+
 No special setup
 
 Configuration
 -------------
+
 
 
 
@@ -47,6 +49,8 @@ Usage
 
 -----
 
+-----
+
 =====
 
 To use this module, you need only to install it. After installation, a red
@@ -60,8 +64,10 @@ Known issues / Roadmap
 ----------------------
 
 
+
 Bug Tracker
 -----------
+
 
 
 
@@ -75,10 +81,13 @@ Credits
 
 
 
+
 [![Odoo Italia Associazione]]
 
 
+
 ### Contributors
+
 
 
 
@@ -90,6 +99,8 @@ Credits
 ### Funders
 
 ### Maintainer
+
+
 
 
 

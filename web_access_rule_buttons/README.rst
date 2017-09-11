@@ -24,11 +24,15 @@ Installation
 ------------
 
 
+
 Configuration
 -------------
 
 
+
 Usage
+-----
+
 -----
 
 -----
@@ -48,11 +52,13 @@ Known issues / Roadmap
 
 
 
+
 * Additional requests will be issued when a record is loaded in a form view in
   order to check if the user has the access right.
 
 Bug Tracker
 -----------
+
 
 
 
@@ -70,6 +76,7 @@ Credits
 
 
 
+
 Images
 
 * Odoo Community Association: `Icon <https://github.com/OCA/maintainer-tools/blob/master/template/module/static/description/icon.svg>`_.
@@ -77,7 +84,9 @@ Images
 [![Odoo Italia Associazione]]
 
 
+
 ### Contributors
+
 
 
 
@@ -86,6 +95,8 @@ Images
 ### Funders
 
 ### Maintainer
+
+
 
 
 

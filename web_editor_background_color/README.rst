@@ -27,11 +27,15 @@ Installation
 ------------
 
 
+
 Configuration
 -------------
 
 
+
 Usage
+-----
+
 -----
 
 -----
@@ -57,8 +61,10 @@ Known issues / Roadmap
 ----------------------
 
 
+
 Bug Tracker
 -----------
+
 
 
 
@@ -72,6 +78,7 @@ Credits
 
 
 
+
 External libraries
 
 * This addon includes code copied from bootstrap-colorpicker_
@@ -81,7 +88,9 @@ External libraries
 [![Odoo Italia Associazione]]
 
 
+
 ### Contributors
+
 
 
 
@@ -90,6 +99,8 @@ External libraries
 ### Funders
 
 ### Maintainer
+
+
 
 
 

@@ -30,7 +30,7 @@ addon | version | OCA version | summary
 --- | --- | --- | ---
 [help_online](help_online/) | 10.0.1.0.0 | :repeat: | Help Online
 [web_access_rule_buttons](web_access_rule_buttons/) | 10.0.1.0.0 | :repeat: | Disable Edit button if access rules prevent this action
-[web_advanced_search_x2x](web_advanced_search_x2x/) | 10.0.2.0.0 | :repeat: | Use a search widget in advanced search for x2x fields
+[web_advanced_search_x2x](web_advanced_search_x2x/) | 10.0.2.0.0 | 10.0.2.0.1 | Use a search widget in advanced search for x2x fields
 [web_chatter_paste](web_chatter_paste/) | 10.0.1.0.0 | :repeat: | Paste images and drop files into the chatter and upload them directly
 [web_confirm_window_close](web_confirm_window_close/) | 10.0.1.0.0 | :repeat: | Check for unsaved data when closing browser window
 [web_dialog_size](web_dialog_size/) | 10.0.1.0.0 | :repeat: | A module that lets the user expand a dialog box to the full screen width.
@@ -42,7 +42,7 @@ addon | version | OCA version | summary
 [web_ir_actions_act_window_message](web_ir_actions_act_window_message/) | 10.0.1.0.0 | :repeat: | Show a message box to users
 [web_listview_invert_selection](web_listview_invert_selection/) | 10.0.1.0.0 | :repeat: | Invert current selection of list of records
 [web_listview_range_select](web_listview_range_select/) | 10.0.1.0.0 | :repeat: | Enables selecting a range of records using the shift key
-[web_m2x_options](web_m2x_options/) | 10.0.1.0.0 | :repeat: | web_m2x_options
+[web_m2x_options](web_m2x_options/) | 10.0.1.0.0 | 10.0.1.1.0 | web_m2x_options
 [web_no_bubble](web_no_bubble/) | 10.0.1.0.0 | :repeat: | Remove the bubbles from the web interface
 [web_notify](web_notify/) | 10.0.1.0.0 | :repeat: | Send notification messages to user
 [web_responsive](web_responsive/) | 10.0.1.1.0 | :repeat: | It provides a mobile compliant interface for Odoo Community web
@@ -92,7 +92,7 @@ addon | version | OCA version | summary
 [web_sheet_full_width_selective](web_sheet_full_width_selective/) | 8.0.0.1.0 (unported) | :repeat: | Show selected sheets with full width
 [web_switch_company_warning](web_switch_company_warning/) | 8.0.0.1.0 (unported) | :repeat: | Show a warning if current company has been switched in another tab or window.
 [web_widget_datepicker_options](web_widget_datepicker_options/) | 8.0.1.0.0 (unported) | :repeat: | web_widget_datepicker_options
-[web_widget_float_formula](web_widget_float_formula/) | 9.0.1.0.0 (unported) | :repeat: | Allow use of simple formulas in float fields
+[web_widget_float_formula](web_widget_float_formula/) | 9.0.1.0.0 (unported) | 10.0.1.0.0 | Allow use of simple formulas in float fields
 [web_widget_text_markdown](web_widget_text_markdown/) | 8.0.1.0.0 (unported) | :repeat: | web_widget_text_markdown
 [web_widget_timepicker](web_widget_timepicker/) | 9.0.1.0.0 (unported) | 10.0.1.0.0 | Web Timepicker Widget
 

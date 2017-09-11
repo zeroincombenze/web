@@ -22,14 +22,18 @@ Installation
 ------------
 
 
+
 Configuration
 -------------
+
 
 
 
 No configuration is needed.
 
 Usage
+-----
+
 -----
 
 -----
@@ -55,10 +59,12 @@ Known issues / Roadmap
 
 
 
+
 * Dropping files only works in Chrome.
 
 Bug Tracker
 -----------
+
 
 
 
@@ -72,10 +78,13 @@ Credits
 
 
 
+
 [![Odoo Italia Associazione]]
 
 
+
 ### Contributors
+
 
 
 
@@ -84,6 +93,8 @@ Credits
 ### Funders
 
 ### Maintainer
+
+
 
 
 

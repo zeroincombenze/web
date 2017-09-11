@@ -36,6 +36,7 @@ Installation
 
 
 
+
 To install this module, just follow basic steps to install an odoo module.
 
 
@@ -44,9 +45,12 @@ Configuration
 
 
 
+
 Not needed.
 
 Usage
+-----
+
 -----
 
 -----
@@ -73,10 +77,12 @@ Known issues / Roadmap
 
 
 
+
 * ...
 
 Bug Tracker
 -----------
+
 
 
 
@@ -91,10 +97,13 @@ Credits
 
 
 
+
 [![Odoo Italia Associazione]]
 
 
+
 ### Contributors
+
 
 
 
@@ -103,6 +112,8 @@ Credits
 ### Funders
 
 ### Maintainer
+
+
 
 
 

@@ -22,6 +22,7 @@ Installation
 
 
 
+
 1. Clone/copy this repository contents in a new "plugins/wsc" folder in your CKEditor installation.
 2. Enable the "wsc" plugin in the CKEditor configuration file (config.js):
 
