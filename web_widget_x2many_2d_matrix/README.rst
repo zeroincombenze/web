@@ -42,11 +42,15 @@ Installation
 ------------
 
 
+
 Configuration
 -------------
 
 
+
 Usage
+-----
+
 -----
 
 -----
@@ -137,10 +141,12 @@ Known issues / Roadmap
 
 
 
+
 * it would be worth trying to instantiate the proper field widget and let it render the input
 
 Bug Tracker
 -----------
+
 
 
 
@@ -154,10 +160,13 @@ Credits
 
 
 
+
 [![Odoo Italia Associazione]]
 
 
+
 ### Contributors
+
 
 
 
@@ -167,6 +176,8 @@ Credits
 ### Funders
 
 ### Maintainer
+
+
 
 
 

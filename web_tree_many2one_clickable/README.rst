@@ -24,10 +24,12 @@ Installation
 
 
 
+
 Install it the regular way.
 
 Configuration
 -------------
+
 
 
 
@@ -37,6 +39,8 @@ a new parameter with name `web_tree_many2one_clickable.default` and with value
 `true`.
 
 Usage
+-----
+
 -----
 
 -----
@@ -57,6 +61,7 @@ Known issues / Roadmap
 
 
 
+
 * You cannot deactivate clickable behaviour for an specific many2one field if
   you configure the system parameter.
 * The value of the system parameter is retrieved for each many2one field
@@ -65,6 +70,7 @@ Known issues / Roadmap
 
 Bug Tracker
 -----------
+
 
 
 
@@ -79,10 +85,13 @@ Credits
 
 
 
+
 [![Odoo Italia Associazione]]
 
 
+
 ### Contributors
+
 
 
 
@@ -92,6 +101,8 @@ Credits
 ### Funders
 
 ### Maintainer
+
+
 
 
 

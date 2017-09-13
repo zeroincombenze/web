@@ -27,8 +27,10 @@ Installation
 ------------
 
 
+
 Configuration
 -------------
+
 
 
 
@@ -50,6 +52,8 @@ Usage
 
 -----
 
+-----
+
 =====
 
 Start filling in your date in a search field and choose one of the additional
@@ -63,8 +67,10 @@ Known issues / Roadmap
 ----------------------
 
 
+
 Bug Tracker
 -----------
+
 
 
 
@@ -81,10 +87,13 @@ Credits
 
 
 
+
 [![Odoo Italia Associazione]]
 
 
+
 ### Contributors
+
 
 
 
@@ -93,6 +102,8 @@ Credits
 ### Funders
 
 ### Maintainer
+
+
 
 
 

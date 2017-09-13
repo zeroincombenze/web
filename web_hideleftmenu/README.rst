@@ -24,11 +24,15 @@ Installation
 ------------
 
 
+
 Configuration
 -------------
 
 
+
 Usage
+-----
+
 -----
 
 -----
@@ -48,8 +52,10 @@ Known issues / Roadmap
 ----------------------
 
 
+
 Bug Tracker
 -----------
+
 
 
 
@@ -66,6 +72,7 @@ Credits
 -------
 
 
+
 Original module by Vauxoo, Migrated to V8.0 by Ahmet Altinisik
 
 Images
@@ -76,7 +83,9 @@ Images
 [![Odoo Italia Associazione]]
 
 
+
 ### Contributors
+
 
 
 * Nhomar Hernández <nhomar@vauxoo.com>
@@ -86,6 +95,8 @@ Images
 ### Funders
 
 ### Maintainer
+
+
 
 
 
