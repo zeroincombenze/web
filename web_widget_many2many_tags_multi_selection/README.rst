@@ -29,6 +29,7 @@ Installation
 
 
 
+
 It was tested on Odoo 7.0 branch.
 
 Configuration
@@ -36,9 +37,12 @@ Configuration
 
 
 
+
 Once installed, there is nothing else to do.
 
 Usage
+-----
+
 -----
 
 -----
@@ -57,10 +61,12 @@ Known issues / Roadmap
 
 
 
+
 * allow multi selection in drop-down.
 
 Bug Tracker
 -----------
+
 
 
 
@@ -77,10 +83,13 @@ Credits
 
 
 
+
 [![Odoo Italia Associazione]]
 
 
+
 ### Contributors
+
 
 
 
@@ -90,6 +99,8 @@ Credits
 ### Funders
 
 ### Maintainer
+
+
 
 
 
