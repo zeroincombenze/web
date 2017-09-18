@@ -26,8 +26,10 @@ Installation
 
 
 
+
 Configuration
 -------------
+
 
 
 
@@ -84,6 +86,8 @@ Usage
 
 -----
 
+-----
+
 =====
 
 For accessing the timeline view, you have to click on the button with the clock
@@ -125,12 +129,14 @@ Known issues / Roadmap
 
 
 
+
 * Implement support for vis.js timeline range item addition (with Ctrl key
   pressed).
 * Implement a more efficient way of refreshing timeline after a record update.
 
 Bug Tracker
 -----------
+
 
 
 
@@ -146,6 +152,7 @@ Credits
 
 
 
+
 Images
 
 * Odoo Community Association: `Icon <https://github.com/OCA/maintainer-tools/blob/master/template/module/static/description/icon.svg>`_.
@@ -154,7 +161,9 @@ Images
 
 
 
+
 ### Contributors
+
 
 
 
@@ -167,6 +176,8 @@ Images
 ### Funders
 
 ### Maintainer
+
+
 
 
 

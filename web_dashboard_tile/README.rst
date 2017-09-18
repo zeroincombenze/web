@@ -30,12 +30,16 @@ Installation
 
 
 
+
 Configuration
 -------------
 
 
 
+
 Usage
+-----
+
 -----
 
 -----
@@ -55,6 +59,7 @@ Known issues / Roadmap
 
 
 
+
 * Can not edit tile from dashboard (color, sequence, function, ...);
 * Context are ignored;
 * Date filter can not be relative;
@@ -65,6 +70,7 @@ Known issues / Roadmap
 
 Bug Tracker
 -----------
+
 
 
 
@@ -84,11 +90,14 @@ Credits
 
 
 
+
 [![Odoo Italia Associazione]]
 
 
 
+
 ### Contributors
+
 
 
 
@@ -99,6 +108,8 @@ Credits
 ### Funders
 
 ### Maintainer
+
+
 
 
 

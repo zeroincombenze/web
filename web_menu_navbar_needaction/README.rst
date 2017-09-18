@@ -23,8 +23,10 @@ Installation
 
 
 
+
 Configuration
 -------------
+
 
 
 
@@ -34,6 +36,8 @@ To configure the update frequency, set the configuration parameter `web_menu_nav
 To disable updates, set the parameter to 0.
 
 Usage
+-----
+
 -----
 
 -----
@@ -55,8 +59,10 @@ Known issues / Roadmap
 
 
 
+
 Bug Tracker
 -----------
+
 
 
 
@@ -72,11 +78,14 @@ Credits
 
 
 
+
 [![Odoo Italia Associazione]]
 
 
 
+
 ### Contributors
+
 
 
 
@@ -86,6 +95,8 @@ Credits
 ### Funders
 
 ### Maintainer
+
+
 
 
 

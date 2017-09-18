@@ -50,7 +50,7 @@ addon | version | OCA version | summary
 [web_searchbar_full_width](web_searchbar_full_width/) | 10.0.1.0.0 | :repeat: | Show search bar in full screen width
 [web_send_message_popup](web_send_message_popup/) | 10.0.1.0.0 | :repeat: | Web Send Message as Popup
 [web_sheet_full_width](web_sheet_full_width/) | 10.0.1.0.1 | :repeat: | Use the whole available screen width when displaying sheets
-[web_shortcut](web_shortcut/) | 10.0.1.0.0 | :repeat: | Shortcut Menu
+[web_shortcut](web_shortcut/) | 10.0.1.0.0 | 10.0.1.0.1 | Shortcut Menu
 [web_timeline](web_timeline/) | 10.0.1.0.0 | :repeat: | Interactive visualization chart to show events in time
 [web_translate_dialog](web_translate_dialog/) | 10.0.1.0.0 | :repeat: | Easy-to-use pop-up to translate fields in several languages
 [web_tree_dynamic_colored_field](web_tree_dynamic_colored_field/) | 10.0.1.0.0 | :repeat: | Allows you to dynamically color fields on tree views
@@ -80,7 +80,7 @@ addon | version | OCA version | summary
 [web_duplicate_visibility](web_duplicate_visibility/) | 9.0.1.0.0 (unported) | :repeat: | Manage the duplicate button visibiliy
 [web_graph_improved](web_graph_improved/) | 8.0.0.1.0 (unported) | :repeat: | Improves graph views.
 [web_group_expand](web_group_expand/) | 8.0.1.0.0 (unported) | :repeat: | Group Expand Buttons
-[web_ir_actions_act_window_page](web_ir_actions_act_window_page/) | 8.0.1.0.0 (unported) | :repeat: | Allows a developer to trigger a pager to show the previous or next next record in the form view
+[web_ir_actions_act_window_page](web_ir_actions_act_window_page/) | 8.0.1.0.0 (unported) | 10.0.1.0.0 | Allows a developer to trigger a pager to show the previous or next next record in the form view
 [web_last_viewed_records](web_last_viewed_records/) | 8.0.1.0.0 (unported) | :repeat: | Last viewed records
 [web_listview_custom_element_number](web_listview_custom_element_number/) | 8.0.1.0.0 (unported) | :repeat: | Allow users to set manually a quantity of items to display in a tree view
 [web_menu_navbar_needaction](web_menu_navbar_needaction/) | 8.0.1.0.0 (unported) | :repeat: | Show the sum of submenus' needaction counters in main menu

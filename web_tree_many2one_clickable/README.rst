@@ -28,10 +28,12 @@ Installation
 
 
 
+
 Install it the regular way.
 
 Configuration
 -------------
+
 
 
 
@@ -41,6 +43,8 @@ by default. You can change this in *Configuration > Technical > Parameters > Sys
 parameter with name `web_tree_many2one_clickable.default` setting it to `false`.
 
 Usage
+-----
+
 -----
 
 -----
@@ -71,8 +75,10 @@ Known issues / Roadmap
 
 
 
+
 Bug Tracker
 -----------
+
 
 
 
@@ -89,11 +95,14 @@ Credits
 
 
 
+
 [![Odoo Italia Associazione]]
 
 
 
+
 ### Contributors
+
 
 
 
@@ -106,6 +115,8 @@ Credits
 ### Funders
 
 ### Maintainer
+
+
 
 
 
