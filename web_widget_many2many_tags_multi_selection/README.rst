@@ -23,6 +23,7 @@ Installation
 
 
 
+
 It was tested on Odoo 8.0 branch.
 
 
@@ -31,7 +32,10 @@ Configuration
 
 
 
+
 Usage
+-----
+
 -----
 
 -----
@@ -43,8 +47,10 @@ Known issues / Roadmap
 
 
 
+
 Bug Tracker
 -----------
+
 
 
 
@@ -61,13 +67,16 @@ Credits
 
 
 
+
 Akretion
 
 [![Odoo Italia Associazione]]
 
 
 
+
 ### Contributors
+
 
 
 
@@ -77,6 +86,8 @@ Akretion
 ### Funders
 
 ### Maintainer
+
+
 
 
 

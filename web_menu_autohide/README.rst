@@ -20,8 +20,10 @@ Installation
 
 
 
+
 Configuration
 -------------
+
 
 
 
@@ -39,8 +41,11 @@ Usage
 
 -----
 
+-----
+
 Known issues / Roadmap
 ----------------------
+
 
 
 
@@ -52,8 +57,10 @@ Bug Tracker
 
 
 
+
 Credits
 -------
+
 
 
 
@@ -62,7 +69,9 @@ Credits
 
 
 
+
 ### Contributors
+
 
 
 
@@ -78,6 +87,8 @@ Icon
 ### Funders
 
 ### Maintainer
+
+
 
 
 

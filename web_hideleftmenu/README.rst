@@ -25,12 +25,16 @@ Installation
 
 
 
+
 Configuration
 -------------
 
 
 
+
 Usage
+-----
+
 -----
 
 -----
@@ -53,8 +57,10 @@ Known issues / Roadmap
 
 
 
+
 Bug Tracker
 -----------
+
 
 
 
@@ -73,6 +79,7 @@ Credits
 
 
 
+
 Original module by Vauxoo, Migrated to V8.0 by Ahmet Altinisik
 
 Images
@@ -84,7 +91,9 @@ Images
 
 
 
+
 ### Contributors
+
 
 
 
@@ -95,6 +104,8 @@ Images
 ### Funders
 
 ### Maintainer
+
+
 
 
 

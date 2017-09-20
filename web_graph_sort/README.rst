@@ -24,12 +24,16 @@ Installation
 
 
 
+
 Configuration
 -------------
 
 
 
+
 Usage
+-----
+
 -----
 
 -----
@@ -56,12 +60,14 @@ Known issues / Roadmap
 
 
 
+
 * The columns are sorted according to the sum over the row. If you have multiple 
   accounting periods for example, if you click on the column header of the first semester,
   the rows will still be sorted by the total for the year.
 
 Bug Tracker
 -----------
+
 
 
 
@@ -77,6 +83,7 @@ Credits
 
 
 
+
 Images
 
 * Odoo Community Association: `Icon <https://github.com/OCA/maintainer-tools/blob/master/template/module/static/description/icon.svg>`_.
@@ -85,7 +92,9 @@ Images
 
 
 
+
 ### Contributors
+
 
 
 
@@ -96,6 +105,8 @@ Images
 ### Funders
 
 ### Maintainer
+
+
 
 
 

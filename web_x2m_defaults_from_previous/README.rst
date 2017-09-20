@@ -24,12 +24,16 @@ Installation
 
 
 
+
 Configuration
 -------------
 
 
 
+
 Usage
+-----
+
 -----
 
 -----
@@ -52,10 +56,12 @@ Known issues / Roadmap
 
 
 
+
 * many2many fields are not yet supported
 
 Bug Tracker
 -----------
+
 
 
 
@@ -71,6 +77,7 @@ Credits
 
 
 
+
 Images
 
 * Odoo Community Association: `Icon <https://github.com/OCA/maintainer-tools/blob/master/template/module/static/description/icon.svg>`_.
@@ -79,7 +86,9 @@ Images
 
 
 
+
 ### Contributors
+
 
 
 
@@ -91,6 +100,8 @@ Do not contact contributors directly about help with questions or problems conce
 ### Funders
 
 ### Maintainer
+
+
 
 
 

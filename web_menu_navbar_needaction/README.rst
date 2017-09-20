@@ -25,8 +25,10 @@ Installation
 
 
 
+
 Configuration
 -------------
+
 
 
 
@@ -38,6 +40,8 @@ To disable updates, set the parameter to 0.
 For more fine-grained control over the menus, you can turn off needaction for a menu by setting its field `needaction` to `False`, or in case you need a different needaction domain, set `needaction_domain` on the menuitem to the domain you need. A side effect of this is that you can use this addon to add needaction capabilities to any model, independent of it implementing the respective mixin by simply filling in your domain there.
 
 Usage
+-----
+
 -----
 
 -----
@@ -59,8 +63,10 @@ Known issues / Roadmap
 
 
 
+
 Bug Tracker
 -----------
+
 
 
 
@@ -76,11 +82,14 @@ Credits
 
 
 
+
 [![Odoo Italia Associazione]]
 
 
 
+
 ### Contributors
+
 
 
 
@@ -90,6 +99,8 @@ Credits
 ### Funders
 
 ### Maintainer
+
+
 
 
 

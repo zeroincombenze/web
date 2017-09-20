@@ -24,8 +24,10 @@ Installation
 
 
 
+
 Configuration
 -------------
+
 
 
 
@@ -48,6 +50,8 @@ Usage
 
 -----
 
+-----
+
 =====
 
 This module has no new visible aspect.
@@ -57,8 +61,10 @@ Known issues / Roadmap
 
 
 
+
 Bug Tracker
 -----------
+
 
 
 
@@ -74,11 +80,14 @@ Credits
 
 
 
+
 [![Odoo Italia Associazione]]
 
 
 
+
 ### Contributors
+
 
 
 
@@ -88,6 +97,8 @@ Credits
 ### Funders
 
 ### Maintainer
+
+
 
 
 

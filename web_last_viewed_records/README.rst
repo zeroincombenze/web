@@ -27,12 +27,16 @@ Installation
 
 
 
+
 Configuration
 -------------
 
 
 
+
 Usage
+-----
+
 -----
 
 -----
@@ -53,11 +57,13 @@ Known issues / Roadmap
 
 
 
+
  * FIXME: doesn't work in a res.config view
 
 
 Bug Tracker
 -----------
+
 
 
 
@@ -74,11 +80,14 @@ Credits
 
 
 
+
 [![Odoo Italia Associazione]]
 
 
 
+
 ### Contributors
+
 
 
 
@@ -88,6 +97,8 @@ Credits
 ### Funders
 
 ### Maintainer
+
+
 
 
 
