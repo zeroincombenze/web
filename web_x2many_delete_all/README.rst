@@ -24,8 +24,10 @@ Installation
 
 
 
+
 Configuration
 -------------
+
 
 
 
@@ -34,6 +36,8 @@ Configuration
 No configuration is needed.
 
 Usage
+-----
+
 -----
 
 -----
@@ -60,8 +64,10 @@ Known issues / Roadmap
 
 
 
+
 Bug Tracker
 -----------
+
 
 
 
@@ -79,7 +85,9 @@ Credits
 
 
 
+
 [![Odoo Italia Associazione]]
+
 
 
 
@@ -90,11 +98,14 @@ Credits
 
 
 
+
 * Dennis Sluijk <d.sluijk@onestein.nl>
 
 ### Funders
 
 ### Maintainer
+
+
 
 
 

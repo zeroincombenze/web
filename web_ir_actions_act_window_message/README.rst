@@ -21,13 +21,17 @@ Installation
 
 
 
+
 Configuration
 -------------
 
 
 
 
+
 Usage
+-----
+
 -----
 
 -----
@@ -90,12 +94,14 @@ Known issues / Roadmap
 
 
 
+
 * add `message_type` to differenciate between warnings, errors, etc.
 * have one `message_type` to show a nonmodal warning on top right
 
 
 Bug Tracker
 -----------
+
 
 
 
@@ -114,12 +120,15 @@ Credits
 
 
 
+
 [![Odoo Italia Associazione]]
 
 
 
 
+
 ### Contributors
+
 
 
 
@@ -132,6 +141,8 @@ Credits
 ### Funders
 
 ### Maintainer
+
+
 
 
 

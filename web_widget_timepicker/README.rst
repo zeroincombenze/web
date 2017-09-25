@@ -40,13 +40,17 @@ Installation
 
 
 
+
 Configuration
 -------------
 
 
 
 
+
 Usage
+-----
+
 -----
 
 -----
@@ -89,6 +93,7 @@ Known issues / Roadmap
 
 
 
+
 * No validation on options.
 
 
@@ -98,8 +103,10 @@ Bug Tracker
 
 
 
+
 Credits
 -------
+
 
 
 
@@ -115,7 +122,9 @@ Credits
 
 
 
+
 ### Contributors
+
 
 
 

@@ -37,13 +37,17 @@ Installation
 
 
 
+
 Configuration
 -------------
 
 
 
 
+
 Usage
+-----
+
 -----
 
 -----
@@ -66,6 +70,7 @@ Known issues / Roadmap
 
 
 
+
 Even if the generated  urls to the documentation contains an anchor (website/hel-xx#view_type),
 it's no more possible to insert/edit anchors elements into the website since this functionnality is not supported
 by the new html editor in Odoo 10.0 (summernote).
@@ -73,6 +78,7 @@ by the new html editor in Odoo 10.0 (summernote).
 
 Bug Tracker
 -----------
+
 
 
 
@@ -90,12 +96,15 @@ Credits
 
 
 
+
 [![Odoo Italia Associazione]]
 
 
 
 
+
 ### Contributors
+
 
 
 
@@ -108,6 +117,8 @@ Credits
 ### Funders
 
 ### Maintainer
+
+
 
 
 

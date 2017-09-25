@@ -26,13 +26,17 @@ Installation
 
 
 
+
 Configuration
 -------------
 
 
 
 
+
 Usage
+-----
+
 -----
 
 -----
@@ -65,11 +69,13 @@ Known issues / Roadmap
 
 
 
+
 * This addon replaces the built-in ``char_domain`` widget, so it can break
   compatibility with other addons that use or extend it.
 
 Bug Tracker
 -----------
+
 
 
 
@@ -87,6 +93,7 @@ Credits
 
 
 
+
 Most code copied from https://github.com/odoo/odoo/tree/68176d80ad6053f52ed1c7bcf294ab3664986c46/addons/web/static/src
 
 Images
@@ -98,7 +105,9 @@ Images
 
 
 
+
 ### Contributors
+
 
 
 
@@ -110,6 +119,8 @@ Images
 ### Funders
 
 ### Maintainer
+
+
 
 
 

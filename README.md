@@ -45,7 +45,7 @@ addon | version | OCA version | summary
 [web_m2x_options](web_m2x_options/) | 10.0.1.0.0 | 10.0.1.1.0 | web_m2x_options
 [web_no_bubble](web_no_bubble/) | 10.0.1.0.0 | :repeat: | Remove the bubbles from the web interface
 [web_notify](web_notify/) | 10.0.1.0.0 | :repeat: | Send notification messages to user
-[web_responsive](web_responsive/) | 10.0.1.1.0 | :repeat: | It provides a mobile compliant interface for Odoo Community web
+[web_responsive](web_responsive/) | 10.0.1.1.0 | 10.0.1.2.0 | It provides a mobile compliant interface for Odoo Community web
 [web_search_with_and](web_search_with_and/) | 10.0.1.0.0 | :repeat: | Use AND conditions on omnibar search
 [web_searchbar_full_width](web_searchbar_full_width/) | 10.0.1.0.0 | :repeat: | Show search bar in full screen width
 [web_send_message_popup](web_send_message_popup/) | 10.0.1.0.0 | :repeat: | Web Send Message as Popup

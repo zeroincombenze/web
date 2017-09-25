@@ -47,6 +47,7 @@ Installation
 
 
 
+
 This module is based on the Instant Messaging Bus. To work properly, the server must be launched in gevent mode.
 
 
@@ -56,7 +57,10 @@ Configuration
 
 
 
+
 Usage
+-----
+
 -----
 
 -----
@@ -77,8 +81,10 @@ Known issues / Roadmap
 
 
 
+
 Bug Tracker
 -----------
+
 
 
 
@@ -96,6 +102,7 @@ Credits
 
 
 
+
 Images
 
 * Odoo Community Association: `Icon <https://github.com/OCA/maintainer-tools/blob/master/template/module/static/description/icon.svg>`_.
@@ -105,7 +112,9 @@ Images
 
 
 
+
 ### Contributors
+
 
 
 
@@ -117,6 +126,8 @@ Images
 ### Funders
 
 ### Maintainer
+
+
 
 
 

@@ -24,8 +24,10 @@ Installation
 
 
 
+
 Configuration
 -------------
+
 
 
 
@@ -37,6 +39,8 @@ To configure this module, you need to:
 #. click on the star icon besides the title to add / remove a shortcut.
 
 Usage
+-----
+
 -----
 
 -----
@@ -62,8 +66,10 @@ Known issues / Roadmap
 
 
 
+
 Bug Tracker
 -----------
+
 
 
 
@@ -81,12 +87,15 @@ Credits
 
 
 
+
 [![Odoo Italia Associazione]]
 
 
 
 
+
 ### Contributors
+
 
 
 
@@ -100,6 +109,8 @@ Credits
 ### Funders
 
 ### Maintainer
+
+
 
 
 

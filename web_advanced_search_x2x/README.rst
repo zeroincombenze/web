@@ -25,13 +25,17 @@ Installation
 
 
 
+
 Configuration
 -------------
 
 
 
 
+
 Usage
+-----
+
 -----
 
 -----
@@ -72,12 +76,14 @@ Known issues / Roadmap
 
 
 
+
 * When you use *is in selection* search system and choose a domain, it gets
   immediately applied, so to add a new condition, you will have to use again
   the *Filters* menu.
 
 Bug Tracker
 -----------
+
 
 
 
@@ -89,12 +95,15 @@ Credits
 
 
 
+
 [![Odoo Italia Associazione]]
 
 
 
 
+
 ### Contributors
+
 
 
 
@@ -108,6 +117,8 @@ Credits
 ### Funders
 
 ### Maintainer
+
+
 
 
 

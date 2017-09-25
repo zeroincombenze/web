@@ -35,13 +35,17 @@ Installation
 
 
 
+
 Configuration
 -------------
 
 
 
 
+
 Usage
+-----
+
 -----
 
 -----
@@ -77,8 +81,10 @@ Known issues / Roadmap
 
 
 
+
 Bug Tracker
 -----------
+
 
 
 
@@ -97,7 +103,9 @@ Credits
 
 
 
+
 [![Odoo Italia Associazione]]
+
 
 
 
@@ -108,11 +116,14 @@ Credits
 
 
 
+
 * Sylvain LE GAL (https://twitter.com/legalsylvain)
 
 ### Funders
 
 ### Maintainer
+
+
 
 
 

@@ -27,11 +27,13 @@ Installation
 
 
 
+
 It was tested on Odoo 8.0 branch.
 
 
 Configuration
 -------------
+
 
 
 
@@ -45,6 +47,8 @@ should be set to any value.
 
 
 Usage
+-----
+
 -----
 
 -----
@@ -77,8 +81,10 @@ Known issues / Roadmap
 
 
 
+
 Bug Tracker
 -----------
+
 
 
 
@@ -97,12 +103,15 @@ Credits
 
 
 
+
 [![Odoo Italia Associazione]]
 
 
 
 
+
 ### Contributors
+
 
 
 
@@ -119,6 +128,8 @@ https://www.iconfinder.com/Vecteezy
 ### Funders
 
 ### Maintainer
+
+
 
 
 

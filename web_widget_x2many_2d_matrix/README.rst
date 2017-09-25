@@ -42,13 +42,17 @@ Installation
 
 
 
+
 Configuration
 -------------
 
 
 
 
+
 Usage
+-----
+
 -----
 
 -----
@@ -169,6 +173,7 @@ Known issues / Roadmap
 
 
 
+
 * It would be worth trying to instantiate the proper field widget and let it render the input
 * Let the widget deal with the missing values of the full Cartesian product,
   instead of being forced to pre-fill all the possible values.
@@ -189,6 +194,7 @@ Bug Tracker
 
 
 
+
 Bugs are tracked on `GitHub Issues
 <https://github.com/OCA/web/issues>`_. In case of trouble, please
 check there if your issue has already been reported. If you spotted it first,
@@ -201,12 +207,15 @@ Credits
 
 
 
+
 [![Odoo Italia Associazione]]
 
 
 
 
+
 ### Contributors
+
 
 
 
@@ -218,6 +227,8 @@ Credits
 ### Funders
 
 ### Maintainer
+
+
 
 
 

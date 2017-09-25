@@ -43,6 +43,7 @@ Installation
 
 
 
+
 To install this module, simply follow the standard install process.
 
 Configuration
@@ -52,9 +53,12 @@ Configuration
 
 
 
+
 No configuration is needed or possible.
 
 Usage
+-----
+
 -----
 
 -----
@@ -80,8 +84,10 @@ Known issues / Roadmap
 
 
 
+
 Bug Tracker
 -----------
+
 
 
 
@@ -99,12 +105,15 @@ Credits
 
 
 
+
 [![Odoo Italia Associazione]]
 
 
 
 
+
 ### Contributors
+
 
 
 
@@ -116,6 +125,8 @@ Credits
 ### Funders
 
 ### Maintainer
+
+
 
 
 

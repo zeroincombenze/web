@@ -24,6 +24,7 @@ Installation
 
 
 
+
 It was tested on Odoo 10.0 branch.
 
 
@@ -33,7 +34,10 @@ Configuration
 
 
 
+
 Usage
+-----
+
 -----
 
 -----
@@ -48,8 +52,10 @@ Known issues / Roadmap
 
 
 
+
 Bug Tracker
 -----------
+
 
 
 
@@ -68,6 +74,7 @@ Credits
 
 
 
+
 Akretion
 
 [![Odoo Italia Associazione]]
@@ -75,7 +82,9 @@ Akretion
 
 
 
+
 ### Contributors
+
 
 
 
@@ -87,6 +96,8 @@ Akretion
 ### Funders
 
 ### Maintainer
+
+
 
 
 

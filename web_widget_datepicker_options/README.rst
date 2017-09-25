@@ -28,13 +28,17 @@ Installation
 
 
 
+
 Configuration
 -------------
 
 
 
 
+
 Usage
+-----
+
 -----
 
 -----
@@ -58,11 +62,13 @@ Known issues / Roadmap
 
 
 
+
 * Absolutely no validation on options.
 
 
 Bug Tracker
 -----------
+
 
 
 
@@ -81,7 +87,9 @@ Credits
 
 
 
+
 [![Odoo Italia Associazione]]
+
 
 
 
@@ -92,11 +100,14 @@ Credits
 
 
 
+
 * Vincent Vinet <vincent.vinet@savoirfairelinux.com>
 
 ### Funders
 
 ### Maintainer
+
+
 
 
 
