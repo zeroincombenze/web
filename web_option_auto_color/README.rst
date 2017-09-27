@@ -15,6 +15,7 @@
     :alt: License
 
 Web Option Auto Color
+=====================
 
 This module was written to offer a new autocolor attribute which can be used on
 field in trees view. Using this attribute causes an identical coloration for
@@ -38,6 +39,8 @@ Configuration
 
 
 Usage
+-----
+
 -----
 
 -----
@@ -88,7 +91,6 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
 
 
 

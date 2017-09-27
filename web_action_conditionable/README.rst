@@ -15,6 +15,7 @@
     :alt: License: AGPL-3
 
 Web Action Conditionable
+========================
 
 This module was written to extend the functionality of actions in tree views.
 Odoo by default support:
@@ -52,6 +53,8 @@ Configuration
 Not needed.
 
 Usage
+-----
+
 -----
 
 -----
@@ -106,7 +109,6 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
 
 
 

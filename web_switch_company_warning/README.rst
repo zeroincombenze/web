@@ -16,6 +16,7 @@
    :alt: License: AGPL-3
 
 Web Switch Company Warning
+==========================
 
 
 Shows a warning if current (company|user|db) has been changed within another tab or window.
@@ -53,6 +54,8 @@ Usage
 
 -----
 
+-----
+
 Known issues / Roadmap
 ----------------------
 
@@ -82,7 +85,6 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
 
 
 

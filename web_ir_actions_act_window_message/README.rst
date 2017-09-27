@@ -36,6 +36,10 @@ Usage
 
 -----
 
+-----
+
+-----
+
 =====
 
 Depend on this module and return
@@ -110,7 +114,7 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
+
 
 
 
@@ -124,8 +128,8 @@ Credits
 * Holger Brunn <hbrunn@therp.nl>
 
 ### Funders
-
 ### Maintainer
+
 
 
 

@@ -16,6 +16,7 @@
    :alt: License: LGPL-3
 
 Web Widget - Image Download
+===========================
 
 This module was written to extend the functionality of the image widget and allows to download it.
 
@@ -32,6 +33,10 @@ Configuration
 
 
 Usage
+-----
+
+-----
+
 -----
 
 -----
@@ -82,7 +87,7 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
+
 
 
 
@@ -97,8 +102,8 @@ Credits
 * Jairo Llopis <jairo.llopis@tecnativa.com>
 
 ### Funders
-
 ### Maintainer
+
 
 
 

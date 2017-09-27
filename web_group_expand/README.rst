@@ -15,6 +15,7 @@
     :alt: License: AGPL-3
 
 Group Expand Buttons
+====================
 
 A group by list can be expanded and collapased with buttons
 
@@ -35,6 +36,10 @@ Configuration
 
 
 Usage
+-----
+
+-----
+
 -----
 
 -----
@@ -80,7 +85,7 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
+
 
 
 
@@ -97,8 +102,8 @@ Credits
 * Jay Vora (SerpentCS) for their alternative implementation
 
 ### Funders
-
 ### Maintainer
+
 
 
 

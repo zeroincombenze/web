@@ -16,6 +16,7 @@
    :alt: License: AGPL-3
 
 Hide left Menu in Web interface
+===============================
 
 This module adds a menu item after logout link to hide or show left menu.
 It is useful on small screens or tree views with many columns.
@@ -33,6 +34,10 @@ Configuration
 
 
 Usage
+-----
+
+-----
+
 -----
 
 -----
@@ -87,7 +92,7 @@ Images
 
 .. image:: web_hideleftmenu/static/description/2.png
 
-[![Odoo Italia Associazione]]
+
 
 
 
@@ -102,8 +107,8 @@ Images
 
 
 ### Funders
-
 ### Maintainer
+
 
 
 

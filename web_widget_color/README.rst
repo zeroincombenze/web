@@ -64,6 +64,10 @@ Usage
 
 -----
 
+-----
+
+-----
+
 =====
 
 You need to declare a char field of at least size 7::
@@ -127,7 +131,7 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
+
 
 
 
@@ -141,8 +145,8 @@ Credits
 * Adil Houmadi <adil.houmadi@gmail.com>
 
 ### Funders
-
 ### Maintainer
+
 
 
 

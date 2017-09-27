@@ -16,6 +16,7 @@
    :alt: License: AGPL-3
 
 More completion options for datetime fields
+===========================================
 
 This module was written to extend the offers shown to the user when starting
 to fill in a date. In standard odoo, the only offer is the date at 00:00:00
@@ -50,6 +51,10 @@ you set ``completion_options``, you have to list all options you want to see,
 as the standard options will be replaced with your list.
 
 Usage
+-----
+
+-----
+
 -----
 
 -----
@@ -95,7 +100,7 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
+
 
 
 
@@ -109,8 +114,8 @@ Credits
 * Holger Brunn <hbrunn@therp.nl>
 
 ### Funders
-
 ### Maintainer
+
 
 
 

@@ -16,6 +16,7 @@
    :alt: License: AGPL-3
 
 X2many Add Button Position
+==========================
 
 This module moves the ``Add an item`` button of x2many fields to the top or bottom of the list (depending on the ``editable`` attribute).
 
@@ -44,6 +45,8 @@ Example::
     </field>
 
 Usage
+-----
+
 -----
 
 -----
@@ -81,7 +84,6 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
 
 
 

@@ -16,6 +16,7 @@
    :alt: License: AGPL-3
 
 Web Graph Sort
+==============
 
 This module allows to sort pivot tables.
 
@@ -32,6 +33,8 @@ Configuration
 
 
 Usage
+-----
+
 -----
 
 -----
@@ -88,7 +91,6 @@ Images
 
 * Odoo Community Association: `Icon <https://github.com/OCA/maintainer-tools/blob/master/template/module/static/description/icon.svg>`_.
 
-[![Odoo Italia Associazione]]
 
 
 

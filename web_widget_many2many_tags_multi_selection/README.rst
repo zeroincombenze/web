@@ -42,6 +42,10 @@ Usage
 
 -----
 
+-----
+
+-----
+
 Known issues / Roadmap
 ----------------------
 
@@ -70,7 +74,7 @@ Credits
 
 Akretion
 
-[![Odoo Italia Associazione]]
+
 
 
 
@@ -84,8 +88,8 @@ Akretion
 * Sylvain Calador <sylvain.calador@akretion.com>
 
 ### Funders
-
 ### Maintainer
+
 
 
 

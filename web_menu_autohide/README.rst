@@ -43,6 +43,10 @@ Usage
 
 -----
 
+-----
+
+-----
+
 Known issues / Roadmap
 ----------------------
 
@@ -65,7 +69,7 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
+
 
 
 
@@ -85,8 +89,8 @@ Icon
 * http://commons.wikimedia.org/wiki/File:ProhibitionSign2.svg
 
 ### Funders
-
 ### Maintainer
+
 
 
 

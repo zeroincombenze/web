@@ -16,6 +16,7 @@
    :alt: License: AGPL-3
 
 Collapsible menu
+================
 
 This module makes all menus collapsible for all users.
 
@@ -49,6 +50,10 @@ No configuration is needed.
 
 
 Usage
+-----
+
+-----
+
 -----
 
 -----
@@ -94,7 +99,7 @@ Images
 
 * Odoo Community Association: `Icon <https://github.com/OCA/maintainer-tools/blob/master/template/module/static/description/icon.svg>`_.
 
-[![Odoo Italia Associazione]]
+
 
 
 
@@ -108,8 +113,8 @@ Images
 * Dennis Sluijk <d.sluijk@onestein.nl>
 
 ### Funders
-
 ### Maintainer
+
 
 
 

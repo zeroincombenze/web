@@ -16,6 +16,7 @@
    :alt: License: AGPL-3
 
 Web Widget - Internal mail wizard for email links
+=================================================
 
 This module was written to provide a new widget for Email fields to replace the
 standard behaviour of displaying a 'mailto:' link with JS to open the internal
@@ -37,6 +38,8 @@ Configuration
 
 
 Usage
+-----
+
 -----
 
 -----
@@ -81,7 +84,6 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
 
 
 

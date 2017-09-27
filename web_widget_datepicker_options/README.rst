@@ -15,6 +15,7 @@
     :alt: License: AGPL-3
 
 Datepicker Widget Options
+=========================
 
 This module allows passing options to the jquery datepicker for fields that use
 the datepicker widget. The option are passed as-is and are not validated.
@@ -36,6 +37,8 @@ Configuration
 
 
 Usage
+-----
+
 -----
 
 -----
@@ -82,7 +85,6 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
 
 
 

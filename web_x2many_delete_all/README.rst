@@ -16,6 +16,7 @@
    :alt: License: AGPL-3
 
 X2many Delete All Button
+========================
 
 Adds a button to Many2many and One2many fields that removes all linked records.
 
@@ -35,6 +36,10 @@ Configuration
 No configuration is needed.
 
 Usage
+-----
+
+-----
+
 -----
 
 -----
@@ -80,7 +85,7 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
+
 
 
 
@@ -94,8 +99,8 @@ Credits
 * Dennis Sluijk <d.sluijk@onestein.nl>
 
 ### Funders
-
 ### Maintainer
+
 
 
 

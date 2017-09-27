@@ -15,6 +15,7 @@
     :alt: License: AGPL-3
 
 Needaction counters in main menu
+================================
 
 This module shows the sum of all submenus' needaction counters in main menus. This way, users get visual feedback where there's still work to do without having to open the respective menu beforehand.
 
@@ -40,6 +41,10 @@ To disable updates, set the parameter to 0.
 For more fine-grained control over the menus, you can turn off needaction for a menu by setting its field `needaction` to `False`, or in case you need a different needaction domain, set `needaction_domain` on the menuitem to the domain you need. A side effect of this is that you can use this addon to add needaction capabilities to any model, independent of it implementing the respective mixin by simply filling in your domain there.
 
 Usage
+-----
+
+-----
+
 -----
 
 -----
@@ -83,7 +88,7 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
+
 
 
 
@@ -97,8 +102,8 @@ Credits
 * Holger Brunn <hbrunn@therp.nl>
 
 ### Funders
-
 ### Maintainer
+
 
 
 

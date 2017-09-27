@@ -47,6 +47,8 @@ Usage
 
 -----
 
+-----
+
 =====
 
 See demo here Video: http://www.youtube.com/watch?v=jQGdD34WYrA&hd=1
@@ -79,7 +81,6 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
 
 
 

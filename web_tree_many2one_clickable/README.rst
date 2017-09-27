@@ -49,6 +49,8 @@ Usage
 
 -----
 
+-----
+
 =====
 
 For the widget option, you need to add `widget="many2one_clickable"` attribute
@@ -93,7 +95,6 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
 
 
 

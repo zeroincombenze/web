@@ -16,6 +16,7 @@
    :alt: License: AGPL-3
 
 Web Digitized Signature for users
+=================================
 
 This module adds a signature field (using ``web_widget_digitized_signature``) to user form.
 
@@ -32,6 +33,10 @@ Configuration
 
 
 Usage
+-----
+
+-----
+
 -----
 
 -----
@@ -79,7 +84,7 @@ Images
 
 * Odoo Community Association: `Icon <https://github.com/OCA/maintainer-tools/blob/master/template/module/static/description/icon.svg>`_.
 
-[![Odoo Italia Associazione]]
+
 
 
 
@@ -95,8 +100,8 @@ Images
 * Lorenzo Battistini <lorenzo.battistini@agilebg.com>
 
 ### Funders
-
 ### Maintainer
+
 
 
 

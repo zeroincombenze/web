@@ -15,6 +15,7 @@
     :alt: License: AGPL-3
 
 Wildcard in advanced search
+===========================
 
 Allows =ilike ('matches') operator to advanced search option.
 
@@ -32,6 +33,10 @@ Configuration
 
 
 Usage
+-----
+
+-----
+
 -----
 
 -----
@@ -81,7 +86,7 @@ Images
 
 * Odoo Community Association: `Icon <https://github.com/OCA/maintainer-tools/blob/master/template/module/static/description/icon.svg>`_.
 
-[![Odoo Italia Associazione]]
+
 
 
 
@@ -98,8 +103,8 @@ Images
 
 
 ### Funders
-
 ### Maintainer
+
 
 
 

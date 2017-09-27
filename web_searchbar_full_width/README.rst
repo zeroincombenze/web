@@ -42,6 +42,10 @@ Usage
 
 -----
 
+-----
+
+-----
+
 Known issues / Roadmap
 ----------------------
 
@@ -68,7 +72,7 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
+
 
 
 
@@ -82,8 +86,8 @@ Credits
 * Holger Brunn <hbrunn@therp.nl>
 
 ### Funders
-
 ### Maintainer
+
 
 
 

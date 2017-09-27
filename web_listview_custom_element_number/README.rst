@@ -52,6 +52,8 @@ Usage
 
 -----
 
+-----
+
 * Sample for res.partner model with a limit of 3:
 
 .. image:: web_listview_custom_element_number/static/src/img/screnshot_partner_limit.png
@@ -97,7 +99,6 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
 
 
 

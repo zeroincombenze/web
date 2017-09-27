@@ -15,6 +15,7 @@
     :alt: License: AGPL-3
 
 Prefetch autocomplete offers
+============================
 
 When searching, the autocomplete options can be a bit frustrating because you
 will be offered choices that won't yield a result. This addon searches for the
@@ -33,6 +34,8 @@ Configuration
 
 
 Usage
+-----
+
 -----
 
 -----
@@ -91,7 +94,6 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
 
 
 

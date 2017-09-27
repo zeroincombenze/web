@@ -15,6 +15,7 @@
     :alt: License
 
 Web Show Advanced Search by default on list view
+================================================
 
 This module always shows the advanced search by default on list view.
 
@@ -49,6 +50,10 @@ Usage
 
 -----
 
+-----
+
+-----
+
 Known issues / Roadmap
 ----------------------
 
@@ -75,7 +80,7 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
+
 
 
 
@@ -89,8 +94,8 @@ Credits
 * Jacques-Etienne Baudoux <je@bcim.be> (BCIM sprl)
 
 ### Funders
-
 ### Maintainer
+
 
 
 

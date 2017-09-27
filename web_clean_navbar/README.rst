@@ -39,6 +39,8 @@ Usage
 
 -----
 
+-----
+
 =====
 
 * go to ...
@@ -77,7 +79,6 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
 
 
 

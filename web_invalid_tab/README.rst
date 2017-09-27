@@ -16,6 +16,7 @@
    :alt: License: AGPL-3
 
 Web invalid tab
+===============
 
 This module highlights a tab when fields inside are invalid. It's useful when you have a form with many tabs.
 
@@ -32,6 +33,10 @@ Configuration
 
 
 Usage
+-----
+
+-----
+
 -----
 
 -----
@@ -69,7 +74,7 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
+
 
 
 
@@ -84,8 +89,8 @@ Credits
 * Robert Rübner <rruebner@bloopark.de>
 
 ### Funders
-
 ### Maintainer
+
 
 
 

@@ -36,6 +36,8 @@ Usage
 
 -----
 
+-----
+
 =====
 
 After installation, a dashboard has a `Maximize`-button that loads the dashboard's action in a normal view.
@@ -66,7 +68,6 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
 
 
 

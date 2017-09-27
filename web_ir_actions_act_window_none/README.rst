@@ -15,6 +15,7 @@
     :alt: License: AGPL-3
 
 Noop action
+===========
 
 This module was written to have an action that does nothing. A notorious case
 where this is useful is buttons on popup windows, because they need to return
@@ -35,6 +36,10 @@ Configuration
 
 
 Usage
+-----
+
+-----
+
 -----
 
 -----
@@ -85,7 +90,7 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
+
 
 
 
@@ -99,8 +104,8 @@ Credits
 * Holger Brunn <hbrunn@therp.nl>
 
 ### Funders
-
 ### Maintainer
+
 
 
 

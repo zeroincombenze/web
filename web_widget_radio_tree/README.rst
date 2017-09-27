@@ -16,6 +16,7 @@
    :alt: License: AGPL-3
 
 Web widget radio tree
+=====================
 
 This module allows to use input radio in a tree view inside a form, in order to ensure the user marks only one record.
 
@@ -34,6 +35,8 @@ Configuration
 
 
 Usage
+-----
+
 -----
 
 -----
@@ -93,7 +96,6 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
 
 
 

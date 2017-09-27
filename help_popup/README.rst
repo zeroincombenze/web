@@ -15,6 +15,7 @@
     :alt: License: AGPL-3
 
 Help Popup
+==========
 
 This module adds an html help popup on each model action.
 Two help fields are added to actions: enduser_help (html widget)
@@ -46,6 +47,8 @@ should be set to any value.
 
 
 Usage
+-----
+
 -----
 
 -----
@@ -98,7 +101,6 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
 
 
 

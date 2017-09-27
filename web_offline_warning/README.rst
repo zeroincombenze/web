@@ -36,6 +36,10 @@ Usage
 
 -----
 
+-----
+
+-----
+
 =====
 
 When an RPC call from the browser fails with a generic error message, a warning message is shown to inform the user that the server cannot be reached.
@@ -66,7 +70,7 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
+
 
 
 
@@ -80,8 +84,8 @@ Credits
 * Thomas Rehn <thomas.rehn@initos.com>
 
 ### Funders
-
 ### Maintainer
+
 
 
 

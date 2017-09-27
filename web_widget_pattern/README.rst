@@ -16,6 +16,7 @@
     :alt: License: AGPL-3
 
 Input patterns
+==============
 
 This module was written to allow you to define a `regex <https://en.wikipedia.org/wiki/Regular_expression>`_ on character fields a user's input is tested against.
 
@@ -32,6 +33,8 @@ Configuration
 
 
 Usage
+-----
+
 -----
 
 -----
@@ -83,7 +86,6 @@ Images
 
 * Odoo Community Association: `Icon <https://github.com/OCA/maintainer-tools/blob/master/template/module/static/description/icon.svg>`_.
 
-[![Odoo Italia Associazione]]
 
 
 

@@ -38,6 +38,10 @@ Usage
 
 -----
 
+-----
+
+-----
+
 =====
 
 You might define a search filter::
@@ -78,7 +82,7 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
+
 
 
 
@@ -92,8 +96,8 @@ Credits
 * Holger Brunn <hbrunn@therp.nl>
 
 ### Funders
-
 ### Maintainer
+
 
 
 

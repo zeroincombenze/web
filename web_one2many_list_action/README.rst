@@ -15,6 +15,7 @@
     :alt: License: AGPL-3
 
 Web One2many List Action
+========================
 
 This module extends the list view used for one2many fields inside form views to
 use the 'tree_but_open' interface to define actions for rows.
@@ -69,6 +70,10 @@ Usage
 
 -----
 
+-----
+
+-----
+
 =====
 
 To use this module, you need to:
@@ -105,7 +110,7 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
+
 
 
 
@@ -119,8 +124,8 @@ Credits
 * Peter Hahn <peter.hahn@initos.com>
 
 ### Funders
-
 ### Maintainer
+
 
 
 

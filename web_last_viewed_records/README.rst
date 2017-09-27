@@ -15,6 +15,7 @@
     :alt: License
 
 Last viewed records
+===================
 
 The module shows links to last viewed records and pages.
 
@@ -35,6 +36,8 @@ Configuration
 
 
 Usage
+-----
+
 -----
 
 -----
@@ -81,7 +84,6 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
 
 
 

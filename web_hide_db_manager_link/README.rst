@@ -15,6 +15,7 @@
     :alt: License
 
 Hide link to database manager in login screen
+=============================================
 
 This module hides the "Manage Databases" link at the bottom of login screen.
 
@@ -55,6 +56,10 @@ Usage
 
 -----
 
+-----
+
+-----
+
 Known issues / Roadmap
 ----------------------
 
@@ -81,7 +86,7 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
+
 
 
 
@@ -95,8 +100,8 @@ Credits
 * Alejandro Santana <alejandrosantana@anubia.es>
 
 ### Funders
-
 ### Maintainer
+
 
 
 
