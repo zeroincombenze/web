@@ -15,6 +15,7 @@
    :alt: License: AGPL-3
 
 Web Note
+========
 
 This module can be used for adding a notes field in any module that need them.
 There are three type of notes - private, internal, external. 
@@ -41,6 +42,8 @@ Configuration
 
 
 Usage
+-----
+
 -----
 
 -----
@@ -107,7 +110,6 @@ Images
 
 * Odoo Community Association: `Icon <https://github.com/OCA/maintainer-tools/blob/master/template/module/static/description/icon.svg>`_.
 
-[![Odoo Italia Associazione]]
 
 
 

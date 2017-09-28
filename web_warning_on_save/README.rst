@@ -15,6 +15,7 @@
     :alt: License: AGPL-3
 
 Raise warning when saving
+=========================
 
 This module was written to extend the functionality of saving a record in the web interface.
 
@@ -40,6 +41,8 @@ Configuration
 
 
 Usage
+-----
+
 -----
 
 -----
@@ -101,7 +104,6 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
 
 
 

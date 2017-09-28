@@ -15,6 +15,7 @@
     :alt: License: AGPL-3
 
 Support branding
+================
 
 If you run an Odoo support company and you support customers without an OPW,
 you can brand the Odoo instance accordingly using this module. This module will
@@ -86,6 +87,8 @@ Usage
 
 -----
 
+-----
+
 Known issues / Roadmap
 ----------------------
 
@@ -112,7 +115,6 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
 
 
 

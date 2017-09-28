@@ -16,6 +16,7 @@
    :alt: License: AGPL-3
 
 Allows multiple selection on many2many_tags widget
+==================================================
 
 In a many2many_tags widget when a lot of entries should be selected it's
 fastidious to select 80% of them. Then you may click on 'search more',
@@ -43,6 +44,8 @@ Configuration
 Once installed, there is nothing else to do.
 
 Usage
+-----
+
 -----
 
 -----
@@ -91,7 +94,6 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
 
 
 

@@ -14,6 +14,7 @@
 ==============================
 
 This is a very minimal, yet robust Color Picker based on jQuery.
+================================================================
 
 For more details check the introductory blog post - http://laktek.com/2008/10/27/really-simple-color-picker-in-jquery/
 
@@ -120,6 +121,8 @@ Usage
 
 -----
 
+-----
+
 Known issues / Roadmap
 ----------------------
 
@@ -138,7 +141,6 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
 
 
 
