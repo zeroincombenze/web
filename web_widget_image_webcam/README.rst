@@ -16,6 +16,7 @@
    :alt: License: LGPL-3
 
 Web Widget - Image WebCam
+=========================
 
 This module extends the functionality of the image widget and allows to take snapshots with WebCam.
 
@@ -59,6 +60,8 @@ Usage
 
 -----
 
+-----
+
 Known issues / Roadmap
 ----------------------
 
@@ -87,7 +90,6 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
 
 
 

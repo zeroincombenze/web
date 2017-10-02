@@ -15,6 +15,7 @@
    :alt: License: AGPL-3
 
 Check for unsaved data when closing browser window
+==================================================
 
 This module will show a confirmation dialog when the user closes
 a window with an Odoo form containing unsaved data.
@@ -34,6 +35,8 @@ Configuration
 
 
 Usage
+-----
+
 -----
 
 -----
@@ -88,7 +91,6 @@ Images
 
 * Odoo Community Association: `Icon <https://github.com/OCA/maintainer-tools/blob/master/template/module/static/description/icon.svg>`_.
 
-[![Odoo Italia Associazione]]
 
 
 

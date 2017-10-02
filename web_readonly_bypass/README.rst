@@ -15,6 +15,7 @@
    :alt: License: AGPL-3
 
 Read Only ByPass
+================
 
 This module provides a solution to the problem of the interaction between
 'readonly' attribute and 'on_change' attribute when used together. It allows
@@ -40,6 +41,8 @@ Configuration
 
 
 Usage
+-----
+
 -----
 
 -----
@@ -108,7 +111,6 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
 
 
 

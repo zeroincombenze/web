@@ -15,6 +15,7 @@
    :alt: License: AGPL-3
 
 Web Environment Ribbon
+======================
 
 Mark a Test Environment with a red ribbon on the top left corner in every page
 
@@ -49,6 +50,8 @@ Configuration
   system parameter "ribbon.name".
 
 Usage
+-----
+
 -----
 
 -----
@@ -96,7 +99,6 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
 
 
 

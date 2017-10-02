@@ -14,6 +14,7 @@
 =========================
 
 Group Expand Buttons
+====================
 
 A group by list can be expanded and collapased with buttons
 
@@ -36,6 +37,8 @@ Configuration
 
 
 Usage
+-----
+
 -----
 
 -----
@@ -86,7 +89,6 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
 
 
 

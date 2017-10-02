@@ -15,6 +15,7 @@
    :alt: License: AGPL-3
 
 Web Translate Dialog
+====================
 
 This module replaces the standard translation view by an easy-to-use pop-up
 view where you can translate all the fields of the object in all the installed
@@ -42,6 +43,8 @@ Configuration
 
 
 Usage
+-----
+
 -----
 
 -----
@@ -100,7 +103,6 @@ Images
 
 * Odoo Community Association: `Icon <https://github.com/OCA/maintainer-tools/blob/master/template/module/static/description/icon.svg>`_.
 
-[![Odoo Italia Associazione]]
 
 
 

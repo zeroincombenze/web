@@ -15,6 +15,7 @@
     :alt: License: AGPL-3
 
 Help Online
+===========
 
 
 This module allows the creation of an online help available from the lists
@@ -46,6 +47,8 @@ Configuration
 
 
 Usage
+-----
+
 -----
 
 -----
@@ -97,7 +100,6 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
 
 
 

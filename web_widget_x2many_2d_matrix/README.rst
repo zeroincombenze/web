@@ -17,6 +17,7 @@
 2D matrix for x2many fields
 
 This module allows to show an x2many field with 3-tuples
+========================================================
 ($x_value, $y_value, $value) in a table
 
 \          $x_value1   $x_value2
@@ -51,6 +52,8 @@ Configuration
 
 
 Usage
+-----
+
 -----
 
 -----
@@ -208,7 +211,6 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
 
 
 

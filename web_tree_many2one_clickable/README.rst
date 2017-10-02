@@ -15,6 +15,7 @@
    :alt: License: AGPL-3
 
 Clickable many2one fields for tree views
+========================================
 
 This addon provides a separate widget to allow many2one or reference fields in
 a tree view open the linked resource when clicking on their name.
@@ -45,6 +46,8 @@ by default. You can change this in *Configuration > Technical > Parameters > Sys
 parameter with name `web_tree_many2one_clickable.default` setting it to `false`.
 
 Usage
+-----
+
 -----
 
 -----
@@ -103,7 +106,6 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
 
 
 

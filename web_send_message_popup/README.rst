@@ -15,6 +15,7 @@
    :alt: License: AGPL-3
 
 Web Send Message as Popup
+=========================
 
 In the email/notes threads below the form views, the link 'Send a
 message' unfold a text field. From there, a button allows to open the
@@ -46,6 +47,8 @@ Configuration
 
 
 Usage
+-----
+
 -----
 
 -----
@@ -90,7 +93,6 @@ Images
 
 * Odoo Community Association: `Icon <https://github.com/OCA/maintainer-tools/blob/master/template/module/static/description/icon.svg>`_.
 
-[![Odoo Italia Associazione]]
 
 
 

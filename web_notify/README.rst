@@ -15,6 +15,7 @@
    :alt: License: AGPL-3
 
 Web Notify
+==========
 
 Send instant notification messages to the user in live.
 
@@ -69,6 +70,8 @@ Usage
 
 -----
 
+-----
+
 =====
 
 .. image:: https://odoo-community.org/website/image/ir.attachment/5784_f2813bd/datas
@@ -107,7 +110,6 @@ Images
 
 * Odoo Community Association: `Icon <https://github.com/OCA/maintainer-tools/blob/master/template/module/static/description/icon.svg>`_.
 
-[![Odoo Italia Associazione]]
 
 
 

@@ -15,6 +15,7 @@
    :alt: License: AGPL-3
 
 Add new options for many2one field
+==================================
 
 Description
 
@@ -44,6 +45,8 @@ Configuration
 
 
 Usage
+-----
+
 -----
 
 -----
@@ -185,7 +188,6 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
 
 
 

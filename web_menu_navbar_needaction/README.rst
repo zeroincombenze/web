@@ -13,6 +13,7 @@
     :alt: License: AGPL-3
 =========================
 Needaction counters in main menu
+================================
 
 This module shows the sum of all submenus' needaction counters in main menus. This way, users get visual feedback where there's still work to do without having to open the respective menu beforehand.
 
@@ -38,6 +39,8 @@ To configure the update frequency, set the configuration parameter `web_menu_nav
 To disable updates, set the parameter to 0.
 
 Usage
+-----
+
 -----
 
 -----
@@ -86,7 +89,6 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
 
 
 

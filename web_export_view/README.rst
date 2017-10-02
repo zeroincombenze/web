@@ -14,6 +14,7 @@
 =================
 
 Export Current View
+===================
 
 One of the best Odoo's features is exporting custom data to CSV/XLS. You can
 do it by clicking on the export link in the sidebar. The export action allows
@@ -43,6 +44,8 @@ Configuration
 
 
 Usage
+-----
+
 -----
 
 -----
@@ -101,7 +104,6 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
 
 
 

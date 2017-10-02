@@ -15,6 +15,7 @@
    :alt: License: AGPL-3
 
 Shortcut Menu
+=============
 
 Adds a button to the top menu which opens a menu containing the user's shortcuts.
 
@@ -39,6 +40,8 @@ To configure this module, you need to:
 #. click on the star icon besides the title to add / remove a shortcut.
 
 Usage
+-----
+
 -----
 
 -----
@@ -88,7 +91,6 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
 
 
 

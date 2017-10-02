@@ -15,6 +15,7 @@
    :alt: License: AGPL-3
 
 List Invert Selection
+=====================
 
 Allow to invert the current selection of a list of records.
 
@@ -36,6 +37,8 @@ Configuration
 No configuration is needed.
 
 Usage
+-----
+
 -----
 
 -----
@@ -91,7 +94,6 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
 
 
 

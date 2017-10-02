@@ -15,6 +15,7 @@
    :alt: License: AGPL-3
 
 Use AND conditions on omnibar search
+====================================
 
 When searching for records on same field Odoo joins multiple queries with OR.
 For example:
@@ -42,6 +43,8 @@ Configuration
 
 
 Usage
+-----
+
 -----
 
 -----
@@ -90,7 +93,6 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
 
 
 

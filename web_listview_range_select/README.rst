@@ -15,6 +15,7 @@
    :alt: License: AGPL-3
 
 List Range Selection
+====================
 
 Enables selecting a range of records using the shift key.
 
@@ -36,6 +37,8 @@ Configuration
 No configuration is needed.
 
 Usage
+-----
+
 -----
 
 -----
@@ -86,7 +89,6 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
 
 
 

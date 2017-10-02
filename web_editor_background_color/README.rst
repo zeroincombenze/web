@@ -16,6 +16,7 @@
    :alt: License: LGPL-3
 
 Web Editor Background Color Picker
+==================================
 
 This module extends the functionality of the web editor to support
 setting a custom background color to any snippet allowing you to customize it.
@@ -38,6 +39,8 @@ Configuration
 
 
 Usage
+-----
+
 -----
 
 -----
@@ -99,7 +102,6 @@ External libraries
 
 .. _bootstrap-colorpicker: https://github.com/itsjavi/bootstrap-colorpicker/tree/2.5.1
 
-[![Odoo Italia Associazione]]
 
 
 

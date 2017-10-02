@@ -46,6 +46,8 @@ Usage
 
 -----
 
+-----
+
 Known issues / Roadmap
 ----------------------
 
@@ -77,7 +79,6 @@ Credits
 
 Akretion
 
-[![Odoo Italia Associazione]]
 
 
 

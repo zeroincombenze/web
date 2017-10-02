@@ -16,6 +16,7 @@
    :alt: License: LGPL-3
 
 Odoo 11.0 Domain Widget Preview
+===============================
 
 This module replaces the functionality of the domain widget to use a preview of
 the brand new interface that will be found in Odoo 11.0.
@@ -35,6 +36,8 @@ Configuration
 
 
 Usage
+-----
+
 -----
 
 -----
@@ -100,7 +103,6 @@ Images
 
 * Odoo Community Association: `Icon <https://github.com/OCA/maintainer-tools/blob/master/template/module/static/description/icon.svg>`_.
 
-[![Odoo Italia Associazione]]
 
 
 

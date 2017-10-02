@@ -15,6 +15,7 @@
     :alt: License: AGPL-3
 
 Timeline view
+=============
 
 Define a new view displaying events in an interactive visualization chart.
 
@@ -82,6 +83,8 @@ Example:
     </odoo>
 
 Usage
+-----
+
 -----
 
 -----
@@ -164,7 +167,6 @@ Images
 
 * Odoo Community Association: `Icon <https://github.com/OCA/maintainer-tools/blob/master/template/module/static/description/icon.svg>`_.
 
-[![Odoo Italia Associazione]]
 
 
 

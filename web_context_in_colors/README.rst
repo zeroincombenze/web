@@ -42,6 +42,8 @@ Usage
 
 -----
 
+-----
+
 =====
 
 You might define a search filter::
@@ -85,7 +87,6 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
 
 
 

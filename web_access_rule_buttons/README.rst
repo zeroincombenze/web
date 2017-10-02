@@ -15,6 +15,7 @@
    :alt: License: AGPL-3
 
 Web Access Rules Buttons
+========================
 
 This addon disables the Edit button on the form views if the user
 cannot edit the current record according to the record access rules.
@@ -35,6 +36,8 @@ Configuration
 
 
 Usage
+-----
+
 -----
 
 -----
@@ -95,7 +98,6 @@ Images
 
 * Odoo Community Association: `Icon <https://github.com/OCA/maintainer-tools/blob/master/template/module/static/description/icon.svg>`_.
 
-[![Odoo Italia Associazione]]
 
 
 

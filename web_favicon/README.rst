@@ -15,6 +15,7 @@
    :alt: License: AGPL-3
 
 Custom shortcut icon (favicon)
+==============================
 
 This module was written to allow you to customize your Odoo instance's shortcut
 icon (aka favicon). This is useful for branding purposes, but also for
@@ -55,6 +56,8 @@ favicon generators across the web.
 To allow a user to edit the favicon it has to be member of group "Administration / Settings".
 
 Usage
+-----
+
 -----
 
 -----
@@ -109,7 +112,6 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
 
 
 

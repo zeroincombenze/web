@@ -15,6 +15,7 @@
    :alt: License: AGPL-3
 
 Formulas in Float Fields
+========================
 
 This module allows the use of simple math formulas in integer/float fields 
 (e.g. "=45 + 4/3 - 5 * (2 + 1)").
@@ -67,6 +68,8 @@ Usage
 
 -----
 
+-----
+
 =====
 
 Install and enjoy. A short demo video can be found at 
@@ -106,7 +109,6 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
 
 
 

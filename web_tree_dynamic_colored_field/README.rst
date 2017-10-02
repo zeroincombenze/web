@@ -56,6 +56,8 @@ Usage
 
 -----
 
+-----
+
 =====
 
 * In the tree view declaration, put bg_color="red:customer==True;" attribute in the field tag::
@@ -132,7 +134,6 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
 
 
 

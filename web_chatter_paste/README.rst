@@ -15,6 +15,7 @@
    :alt: License: AGPL-3
 
 Chatter Paste
+=============
 
 Paste images and drop files (while composing a message) into the chatter and upload them directly as attachment.
 
@@ -36,6 +37,8 @@ Configuration
 No configuration is needed.
 
 Usage
+-----
+
 -----
 
 -----
@@ -93,7 +96,6 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
 
 
 

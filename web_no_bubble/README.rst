@@ -15,6 +15,7 @@
    :alt: License: AGPL-3
 
 Web No Bubble
+=============
 
 This module removes from the web interface the bubbles introduced in the version 10.0.
 The help boxes are not removed though.
@@ -38,6 +39,8 @@ Configuration
 
 
 Usage
+-----
+
 -----
 
 -----
@@ -80,7 +83,6 @@ Images
 
 * Odoo Community Association: `Icon <https://github.com/OCA/maintainer-tools/blob/master/template/module/static/description/icon.svg>`_.
 
-[![Odoo Italia Associazione]]
 
 
 

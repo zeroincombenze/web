@@ -15,6 +15,7 @@
    :alt: License: AGPL-3
 
 Hide link to database manager in login screen
+=============================================
 
 This module hides the "Manage Databases" link at the bottom of login screen.
 
@@ -42,6 +43,8 @@ Configuration
 
 
 Usage
+-----
+
 -----
 
 -----
@@ -105,7 +108,6 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
 
 
 

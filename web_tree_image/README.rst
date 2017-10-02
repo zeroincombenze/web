@@ -14,6 +14,7 @@
 =========================
 
 Display images and icons in tree view
+=====================================
 
 This module defines a tree image widget, to be used with either binary fields
 or (function) fields of type character. Use ``widget='image'`` in your view
@@ -46,6 +47,8 @@ Configuration
 
 
 Usage
+-----
+
 -----
 
 -----
@@ -89,7 +92,6 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
 
 
 

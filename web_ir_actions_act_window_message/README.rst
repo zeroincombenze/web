@@ -40,6 +40,8 @@ Usage
 
 -----
 
+-----
+
 =====
 
 Depend on this module and return
@@ -121,7 +123,6 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
 
 
 
