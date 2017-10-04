@@ -58,6 +58,8 @@ Usage
 
 -----
 
+-----
+
 =====
 
 This module defines a new widget type for tree views columns.

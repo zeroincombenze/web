@@ -53,6 +53,8 @@ Usage
 
 -----
 
+-----
+
 =====
 
 * Dashboad sample, displaying Sale Orders to invoice:

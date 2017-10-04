@@ -64,6 +64,8 @@ Usage
 
 -----
 
+-----
+
 =====
 
 Use this widget by saying::

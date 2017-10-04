@@ -44,6 +44,8 @@ Usage
 
 -----
 
+-----
+
 =====
 
 To use this module, use ``widget="one2many_tags"`` on your field element.

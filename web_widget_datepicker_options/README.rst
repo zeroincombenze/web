@@ -47,6 +47,8 @@ Usage
 
 -----
 
+-----
+
 =====
 
 You must pass all options through the "datepicker" field in the options::

@@ -46,6 +46,8 @@ Usage
 
 -----
 
+-----
+
 =====
 
 There are no any settings to configure. Just install module and continue to use odoo in a usual way. You will see links to last visited pages.

@@ -45,6 +45,8 @@ Usage
 
 -----
 
+-----
+
 =====
 
 In the view declaration, put widget='radio_tree' attribute in the field tag. The field type should be boolean::
