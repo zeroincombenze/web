@@ -54,6 +54,8 @@ Usage
 
 -----
 
+-----
+
 =====
 
 Open the `search more...` popup on any ``many2many_tags`` widget.

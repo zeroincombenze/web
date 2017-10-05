@@ -55,6 +55,8 @@ Usage
 
 -----
 
+-----
+
 =====
 
 This module changes the behaviour of Odoo by propagating

@@ -44,6 +44,8 @@ Usage
 
 -----
 
+-----
+
 =====
 
 While the default behavior of odoo is to display the duplicate button when user 
