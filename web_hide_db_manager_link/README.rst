@@ -55,6 +55,8 @@ Usage
 
 -----
 
+-----
+
 =====
 
 When this module is installed the link "Manage Databases" will be hidden in

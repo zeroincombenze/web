@@ -95,6 +95,8 @@ Usage
 
 -----
 
+-----
+
 =====
 
 For accessing the timeline view, you have to click on the button with the clock

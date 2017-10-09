@@ -65,6 +65,8 @@ Usage
 
 -----
 
+-----
+
 =====
 
 You need to declare a char field of at least size 7::

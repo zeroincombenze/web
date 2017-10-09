@@ -52,6 +52,8 @@ Usage
 
 -----
 
+-----
+
 =====
  
 In the view declaration, put autocolor="1" attribute in the field tag::

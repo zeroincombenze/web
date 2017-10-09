@@ -48,6 +48,8 @@ Usage
 
 -----
 
+-----
+
 =====
 
 When using Odoo, even if a user has no rights to edit a record, the Edit button

@@ -62,6 +62,8 @@ Usage
 
 -----
 
+-----
+
 =====
 
 In the form view declaration, put widget='timepicker' attribute in the field tag::
