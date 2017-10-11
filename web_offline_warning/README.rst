@@ -42,6 +42,8 @@ Usage
 
 -----
 
+-----
+
 =====
 
 When an RPC call from the browser fails with a generic error message, a warning message is shown to inform the user that the server cannot be reached.

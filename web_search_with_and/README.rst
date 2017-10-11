@@ -56,6 +56,8 @@ Usage
 
 -----
 
+-----
+
 =====
 
 * Enter your value in omnibar search field

@@ -44,6 +44,8 @@ Usage
 
 -----
 
+-----
+
 =====
 
 You might define a search filter::

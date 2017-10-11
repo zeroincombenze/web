@@ -55,6 +55,8 @@ Usage
 
 -----
 
+-----
+
 =====
 
 After you installed it, you'll find an additional link 'Export current view'

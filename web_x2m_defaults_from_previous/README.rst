@@ -47,6 +47,8 @@ Usage
 
 -----
 
+-----
+
 =====
 
 #. on a x2many field, say ``options="{'web_x2m_defaults_from_previous': ['field1', 'field2']}"``
