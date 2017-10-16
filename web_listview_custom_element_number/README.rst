@@ -46,19 +46,12 @@ Configuration
 Usage
 -----
 
------
 
------
 
------
 
------
 
------
 
------
 
------
 
 * Sample for res.partner model with a limit of 3:
 

@@ -58,17 +58,11 @@ To allow a user to edit the favicon it has to be member of group "Administration
 Usage
 -----
 
------
 
------
 
------
 
------
 
------
 
------
 
 =====
 

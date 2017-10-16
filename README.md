@@ -52,7 +52,7 @@ addon | version | OCA version | summary
 [web_send_message_popup](web_send_message_popup/) | 10.0.1.0.0 | :repeat: | Web Send Message as Popup
 [web_sheet_full_width](web_sheet_full_width/) | 10.0.1.0.1 | :repeat: | Use the whole available screen width when displaying sheets
 [web_shortcut](web_shortcut/) | 10.0.1.0.0 | 10.0.1.0.1 | Shortcut Menu
-[web_timeline](web_timeline/) | 10.0.1.0.0 | :repeat: | Interactive visualization chart to show events in time
+[web_timeline](web_timeline/) | 10.0.1.0.0 | 10.0.1.1.0 | Interactive visualization chart to show events in time
 [web_translate_dialog](web_translate_dialog/) | 10.0.1.0.0 | :repeat: | Easy-to-use pop-up to translate fields in several languages
 [web_tree_dynamic_colored_field](web_tree_dynamic_colored_field/) | 10.0.1.0.0 | :repeat: | Allows you to dynamically color fields on tree views
 [web_tree_image](web_tree_image/) | 10.0.1.1.0 | :repeat: | Show images in tree views
@@ -87,7 +87,7 @@ addon | version | OCA version | summary
 [web_menu_navbar_needaction](web_menu_navbar_needaction/) | 8.0.1.0.0 (unported) | :repeat: | Show the sum of submenus' needaction counters in main menu
 [web_option_auto_color](web_option_auto_color/) | 8.0.0.1.0 (unported) | :repeat: | Web Option Auto Color
 [web_polymorphic_many2one](web_polymorphic_many2one/) | 0.2 (unported) | :repeat: | Web Polymorphic Many2One
-[web_readonly_bypass](web_readonly_bypass/) | 9.0.1.0.0 (unported) | :repeat: | Allow to save onchange modifications to readonly fields
+[web_readonly_bypass](web_readonly_bypass/) | 9.0.1.0.0 (unported) | 10.0.1.0.1 | Allow to save onchange modifications to readonly fields
 [web_recipients_uncheck](web_recipients_uncheck/) | 8.0.0.3.0 (unported) | :repeat: | Uncheck recipients on res.partner
 [web_search_alphabetic](web_search_alphabetic/) | 1.0 (unported) | :repeat: | Web Alphabetical Search
 [web_sheet_full_width_selective](web_sheet_full_width_selective/) | 8.0.0.1.0 (unported) | :repeat: | Show selected sheets with full width
