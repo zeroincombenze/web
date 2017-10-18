@@ -36,17 +36,11 @@ parameter `web_dialog_size.default_maximize` to `1`.
 Usage
 -----
 
------
 
------
 
------
 
------
 
------
 
------
 
 Known issues / Roadmap
 ----------------------

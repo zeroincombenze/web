@@ -78,19 +78,12 @@ the default is empty!
 Usage
 -----
 
------
 
------
 
------
 
------
 
------
 
------
 
------
 
 Known issues / Roadmap
 ----------------------

@@ -52,19 +52,12 @@ No configuration is needed.
 Usage
 -----
 
------
 
------
 
------
 
------
 
------
 
------
 
------
 
 Known issues / Roadmap
 ----------------------

@@ -43,17 +43,11 @@ a new parameter with name `web_tree_many2one_clickable.default` and with value
 Usage
 -----
 
------
 
------
 
------
 
------
 
------
 
------
 
 =====
 

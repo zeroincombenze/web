@@ -35,19 +35,12 @@ Configuration
 Usage
 -----
 
------
 
------
 
------
 
------
 
------
 
------
 
------
 
 =====
 Use % as a placeholder.

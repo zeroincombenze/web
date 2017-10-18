@@ -53,19 +53,12 @@ favicon generators across the web.
 Usage
 -----
 
------
 
------
 
------
 
------
 
------
 
------
 
------
 
 =====
 
