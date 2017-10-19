@@ -46,17 +46,11 @@ Once installed, there is nothing else to do.
 Usage
 -----
 
------
 
------
 
------
 
------
 
------
 
------
 
 =====
 
