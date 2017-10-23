@@ -31,7 +31,7 @@ addon | version | OCA version | summary
 --- | --- | --- | ---
 [help_online](help_online/) | 10.0.1.0.0 | :repeat: | Help Online
 [web_access_rule_buttons](web_access_rule_buttons/) | 10.0.1.0.0 | :repeat: | Disable Edit button if access rules prevent this action
-[web_advanced_search_x2x](web_advanced_search_x2x/) | 10.0.2.0.0 | 10.0.2.0.1 | Use a search widget in advanced search for x2x fields
+[web_advanced_search_x2x](web_advanced_search_x2x/) | 10.0.2.0.0 | 10.0.2.0.2 | Use a search widget in advanced search for x2x fields
 [web_chatter_paste](web_chatter_paste/) | 10.0.1.0.0 | :repeat: | Paste images and drop files into the chatter and upload them directly
 [web_confirm_window_close](web_confirm_window_close/) | 10.0.1.0.0 | :repeat: | Check for unsaved data when closing browser window
 [web_dialog_size](web_dialog_size/) | 10.0.1.0.0 | :repeat: | A module that lets the user expand a dialog box to the full screen width.
@@ -58,7 +58,7 @@ addon | version | OCA version | summary
 [web_tree_image](web_tree_image/) | 10.0.1.1.0 | :repeat: | Show images in tree views
 [web_tree_many2one_clickable](web_tree_many2one_clickable/) | 10.0.1.0.0 | :repeat: | Open the linked resource when clicking on their name
 [web_widget_color](web_widget_color/) | 10.0.1.0.0 | :repeat: | Web Widget Color
-[web_widget_domain_v11](web_widget_domain_v11/) | 10.0.1.0.0 | :repeat: | Updated domain widget
+[web_widget_domain_v11](web_widget_domain_v11/) | 10.0.1.0.0 | 10.0.1.0.1 | Updated domain widget
 [web_widget_image_download](web_widget_image_download/) | 10.0.1.0.0 | :repeat: | Allows to download any image from its widget
 [web_widget_image_webcam](web_widget_image_webcam/) | 10.0.1.0.0 | :repeat: | Allows to take image with WebCam
 [web_widget_many2many_tags_multi_selection](web_widget_many2many_tags_multi_selection/) | 10.0.1.0.0 | :repeat: | Tags multiple selection
