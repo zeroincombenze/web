@@ -8,9 +8,51 @@
 [![try it](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-10.svg)](http://erp10.zeroincombenze.it)
 
 
-[![en](https://github.com/zeroincombenze/grymb/blob/master/flags/en_US.png)](https://www.facebook.com/groups/openerp.italia/)
-================================================================================================
-================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[![en](http://www.shs-av.com/wp-content/en_US.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
 
 Web addons for Odoo
 ===================
@@ -31,10 +73,10 @@ addon | version | OCA version | summary
 --- | --- | --- | ---
 [help_online](help_online/) | 10.0.1.0.0 | :repeat: | Help Online
 [web_access_rule_buttons](web_access_rule_buttons/) | 10.0.1.0.0 | :repeat: | Disable Edit button if access rules prevent this action
-[web_advanced_search_x2x](web_advanced_search_x2x/) | 10.0.2.0.0 | 10.0.2.0.2 | Use a search widget in advanced search for x2x fields
+[web_advanced_search_x2x](web_advanced_search_x2x/) | 10.0.2.0.0 | 10.0.2.0.3 | Use a search widget in advanced search for x2x fields
 [web_chatter_paste](web_chatter_paste/) | 10.0.1.0.0 | :repeat: | Paste images and drop files into the chatter and upload them directly
 [web_confirm_window_close](web_confirm_window_close/) | 10.0.1.0.0 | :repeat: | Check for unsaved data when closing browser window
-[web_dialog_size](web_dialog_size/) | 10.0.1.0.0 | :repeat: | A module that lets the user expand a dialog box to the full screen width.
+[web_dialog_size](web_dialog_size/) | 10.0.1.0.0 | 10.0.1.0.2 | A module that lets the user expand a dialog box to the full screen width.
 [web_editor_background_color](web_editor_background_color/) | 10.0.1.0.0 | :repeat: | Set any background color for web editor snippets
 [web_environment_ribbon](web_environment_ribbon/) | 10.0.1.0.0 | :repeat: | Web Environment Ribbon
 [web_export_view](web_export_view/) | 10.0.1.0.0 | :repeat: | Web Export Current View
@@ -46,14 +88,14 @@ addon | version | OCA version | summary
 [web_m2x_options](web_m2x_options/) | 10.0.1.0.0 | 10.0.1.1.0 | web_m2x_options
 [web_no_bubble](web_no_bubble/) | 10.0.1.0.0 | :repeat: | Remove the bubbles from the web interface
 [web_notify](web_notify/) | 10.0.1.0.0 | :repeat: | Send notification messages to user
-[web_responsive](web_responsive/) | 10.0.1.1.0 | 10.0.1.2.0 | It provides a mobile compliant interface for Odoo Community web
+[web_responsive](web_responsive/) | 10.0.1.1.0 | 10.0.1.2.3 | It provides a mobile compliant interface for Odoo Community web
 [web_search_with_and](web_search_with_and/) | 10.0.1.0.0 | :repeat: | Use AND conditions on omnibar search
 [web_searchbar_full_width](web_searchbar_full_width/) | 10.0.1.0.0 | :repeat: | Show search bar in full screen width
 [web_send_message_popup](web_send_message_popup/) | 10.0.1.0.0 | :repeat: | Web Send Message as Popup
 [web_sheet_full_width](web_sheet_full_width/) | 10.0.1.0.1 | :repeat: | Use the whole available screen width when displaying sheets
 [web_shortcut](web_shortcut/) | 10.0.1.0.0 | 10.0.1.0.1 | Shortcut Menu
-[web_timeline](web_timeline/) | 10.0.1.0.0 | 10.0.1.1.0 | Interactive visualization chart to show events in time
-[web_translate_dialog](web_translate_dialog/) | 10.0.1.0.0 | :repeat: | Easy-to-use pop-up to translate fields in several languages
+[web_timeline](web_timeline/) | 10.0.1.0.0 | 10.0.1.2.1 | Interactive visualization chart to show events in time
+[web_translate_dialog](web_translate_dialog/) | 10.0.1.0.0 | 10.0.1.0.1 | Easy-to-use pop-up to translate fields in several languages
 [web_tree_dynamic_colored_field](web_tree_dynamic_colored_field/) | 10.0.1.0.0 | :repeat: | Allows you to dynamically color fields on tree views
 [web_tree_image](web_tree_image/) | 10.0.1.1.0 | :repeat: | Show images in tree views
 [web_tree_many2one_clickable](web_tree_many2one_clickable/) | 10.0.1.0.0 | :repeat: | Open the linked resource when clicking on their name
@@ -71,8 +113,8 @@ Unported addons
 addon | version | OCA version | summary
 --- | --- | --- | ---
 [help_popup](help_popup/) | 8.0.0.5.0 (unported) | :repeat: | Help Popup
-[support_branding](support_branding/) | 8.0.2.0.0 (unported) | :repeat: | Adds your branding to an Odoo instance
-[web_action_conditionable](web_action_conditionable/) | 8.0.0.1.0 (unported) | :repeat: | web_action_conditionable
+[support_branding](support_branding/) | 8.0.2.0.0 (unported) | 10.0.1.0.0 | Adds your branding to an Odoo instance
+[web_action_conditionable](web_action_conditionable/) | 8.0.0.1.0 (unported) | 10.0.1.0.0 | web_action_conditionable
 [web_ckeditor4](web_ckeditor4/) | 8.0.1.0.0 (unported) | :repeat: | Provides a widget for editing HTML fields using CKEditor 4.x
 [web_context_in_colors](web_context_in_colors/) | 8.0.1.1.0 (unported) | :repeat: | Use the context in a tree view's colors and fonts attribute
 [web_dashboard_open_action](web_dashboard_open_action/) | 8.0.1.0.0 (unported) | :repeat: | Adds a button to open a dashboard in full mode
@@ -83,7 +125,7 @@ addon | version | OCA version | summary
 [web_group_expand](web_group_expand/) | 8.0.1.0.0 (unported) | :repeat: | Group Expand Buttons
 [web_ir_actions_act_window_page](web_ir_actions_act_window_page/) | 8.0.1.0.0 (unported) | 10.0.1.0.0 | Allows a developer to trigger a pager to show the previous or next next record in the form view
 [web_last_viewed_records](web_last_viewed_records/) | 8.0.1.0.0 (unported) | :repeat: | Last viewed records
-[web_listview_custom_element_number](web_listview_custom_element_number/) | 8.0.1.0.0 (unported) | :repeat: | Allow users to set manually a quantity of items to display in a tree view
+[web_listview_custom_element_number](web_listview_custom_element_number/) | 8.0.1.0.0 (unported) | :x: | Allow users to set manually a quantity of items to display in a tree view
 [web_menu_navbar_needaction](web_menu_navbar_needaction/) | 8.0.1.0.0 (unported) | :repeat: | Show the sum of submenus' needaction counters in main menu
 [web_option_auto_color](web_option_auto_color/) | 8.0.0.1.0 (unported) | :repeat: | Web Option Auto Color
 [web_polymorphic_many2one](web_polymorphic_many2one/) | 0.2 (unported) | :repeat: | Web Polymorphic Many2One
@@ -91,10 +133,10 @@ addon | version | OCA version | summary
 [web_recipients_uncheck](web_recipients_uncheck/) | 8.0.0.3.0 (unported) | :repeat: | Uncheck recipients on res.partner
 [web_search_alphabetic](web_search_alphabetic/) | 1.0 (unported) | :repeat: | Web Alphabetical Search
 [web_sheet_full_width_selective](web_sheet_full_width_selective/) | 8.0.0.1.0 (unported) | :repeat: | Show selected sheets with full width
-[web_switch_company_warning](web_switch_company_warning/) | 8.0.0.1.0 (unported) | :repeat: | Show a warning if current company has been switched in another tab or window.
+[web_switch_company_warning](web_switch_company_warning/) | 8.0.0.1.0 (unported) | 10.0.0.1.0 | Show a warning if current company has been switched in another tab or window.
 [web_widget_datepicker_options](web_widget_datepicker_options/) | 8.0.1.0.0 (unported) | :repeat: | web_widget_datepicker_options
 [web_widget_float_formula](web_widget_float_formula/) | 9.0.1.0.0 (unported) | 10.0.1.0.0 | Allow use of simple formulas in float fields
-[web_widget_text_markdown](web_widget_text_markdown/) | 8.0.1.0.0 (unported) | :repeat: | web_widget_text_markdown
+[web_widget_text_markdown](web_widget_text_markdown/) | 8.0.1.0.0 (unported) | 10.0.1.0.0 | web_widget_text_markdown
 [web_widget_timepicker](web_widget_timepicker/) | 9.0.1.0.0 (unported) | 10.0.1.0.0 | Web Timepicker Widget
 
 [//]: # (end addons)
