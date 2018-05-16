@@ -8,9 +8,51 @@
 [![try it](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-8.svg)](http://erp8.zeroincombenze.it)
 
 
-[![en](https://github.com/zeroincombenze/grymb/blob/master/flags/en_US.png)](https://www.facebook.com/groups/openerp.italia/)
-================================================================================================
-================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[![en](http://www.shs-av.com/wp-content/en_US.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
 
 Web addons for Odoo
 ===================
@@ -44,7 +86,7 @@ addon | version | OCA version | summary
 [web_dom_model_classes](web_dom_model_classes/) | 8.0.1.0.0 | :repeat: | Allows small UI changes with simple CSS
 [web_easy_switch_company](web_easy_switch_company/) | 8.0.1.0.0 | :repeat: | Multicompany - Easy Switch Company
 [web_environment_ribbon](web_environment_ribbon/) | 8.0.1.0.0 | :repeat: | Web Environment Ribbon
-[web_export_view](web_export_view/) | 8.0.1.2.0 | :repeat: | Export Current View
+[web_export_view](web_export_view/) | 8.0.1.2.0 | 8.0.1.3.0 | Export Current View
 [web_favicon](web_favicon/) | 8.0.1.0.0 | :repeat: | Allows to set a custom shortcut icon (aka favicon)
 [web_graph_improved](web_graph_improved/) | 8.0.0.1.0 | :repeat: | Improves graph views.
 [web_graph_sort](web_graph_sort/) | 8.0.1.0.0 | :repeat: | Web Graph Sort
