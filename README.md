@@ -56,6 +56,8 @@
 
 
 
+
+
 [![en](http://www.shs-av.com/wp-content/en_US.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
 
 Web addons for Odoo
@@ -89,7 +91,7 @@ addon | version | OCA version | summary
 [web_ir_actions_act_window_message](web_ir_actions_act_window_message/) | 10.0.1.0.0 | :repeat: | Show a message box to users
 [web_listview_invert_selection](web_listview_invert_selection/) | 10.0.1.0.0 | :repeat: | Invert current selection of list of records
 [web_listview_range_select](web_listview_range_select/) | 10.0.1.0.0 | :repeat: | Enables selecting a range of records using the shift key
-[web_m2x_options](web_m2x_options/) | 10.0.1.0.0 | 10.0.1.1.0 | web_m2x_options
+[web_m2x_options](web_m2x_options/) | 10.0.1.0.0 | 10.0.1.1.1 | web_m2x_options
 [web_no_bubble](web_no_bubble/) | 10.0.1.0.0 | :repeat: | Remove the bubbles from the web interface
 [web_notify](web_notify/) | 10.0.1.0.0 | :repeat: | Send notification messages to user
 [web_responsive](web_responsive/) | 10.0.1.1.0 | 10.0.1.2.3 | It provides a mobile compliant interface for Odoo Community web
