@@ -62,6 +62,8 @@
 
 
 
+
+
 [![en](http://www.shs-av.com/wp-content/en_US.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
 
 .. image:: https://img.shields.io/badge/licence-LGPL--3-blue.svg
