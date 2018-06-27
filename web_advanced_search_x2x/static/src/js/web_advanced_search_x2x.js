@@ -12,6 +12,7 @@ odoo.define('web_advanced_search_x2x.search_filters', function (require) {
     var SearchView = require('web.SearchView');
     var data = require('web.data');
     var core = require('web.core');
+    var pyeval = require('web.pyeval');
 
     var X2XAdvancedSearchPropositionMixin = {
         template: "web_advanced_search_x2x.proposition",
@@ -35,6 +36,12 @@ odoo.define('web_advanced_search_x2x.search_filters', function (require) {
             // Append domain operator
             this.operators.push({
                 'value': 'domain', 'text': core._lt('is in selection'),
+            });
+            // Avoid hiding filter when using special widgets
+            this.events = $.extend({}, this.events, {
+                click: function (event) {
+                    event.stopPropagation();
+                },
             });
             return this._super.apply(this, arguments);
         },
@@ -79,6 +86,16 @@ odoo.define('web_advanced_search_x2x.search_filters', function (require) {
             }
             var widget = this.x2x_widget();
             if (!widget) return;
+
+            var field_domain = this.field.domain;
+            if (typeof field_domain === 'string') {
+                try {
+                    pyeval.eval('domain', field_domain);
+                } catch(e) {
+                    this.field.domain = "[]";
+                }
+            }
+
             this._x2x_field = new widget(
                 this,
                 this.x2x_field_create_options()
@@ -149,11 +166,15 @@ odoo.define('web_advanced_search_x2x.search_filters', function (require) {
                 var domain = new data.CompoundDomain(),
                     name = this.field.name;
                 $.map(value, function (el) {
-                    domain.add([[
-                        _.str.sprintf("%s.%s", name, el[0]),
-                        el[1],
-                        el[2],
-                    ]]);
+                    var leaf = el;
+                    if (typeof el !== "string") {
+                        leaf = [
+                            _.str.sprintf("%s.%s", name, el[0]),
+                            el[1],
+                            el[2],
+                        ];
+                    }
+                    domain.add([leaf]);
                 });
                 return domain;
             } else {
@@ -168,6 +189,9 @@ odoo.define('web_advanced_search_x2x.search_filters', function (require) {
 
         get_value: function () {
             try {
+                if (!this.x2x_widget_name()) {
+                    throw "No x2x widget, fallback to default";
+                }
                 return this._x2x_field.get_value();
             } catch (error) {
                 return this._super.apply(this, arguments);

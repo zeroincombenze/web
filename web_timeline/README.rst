@@ -98,12 +98,20 @@ the possible attributes for the tag:
 * date_start (required): it defines the name of the field of type date that
   contains the start of the event.
 * date_end (optional): it defines the name of the field of type date that
-  contains the end of the event.
-* date_delay (optional): it defines the name of the field of type date that
-  contains the end of the event.
+  contains the end of the event. The date_end can be equal to the attribute
+  date_start to display events has 'point' on the Timeline (instantaneous event)
+* date_delay (optional): it defines the name of the field of type float/integer
+  that contain the duration in hours of the event, default = 1
 * default_group_by (required): it defines the name of the field that will be
   taken as default group by when accessing the view or when no other group by
   is selected.
+* zoomKey (optional): Specifies whether the Timeline is only zoomed when an
+  additional key is down. Available values are '' (does not apply), 'altKey',
+  'ctrlKey', or 'metaKey'. Set this option if you want to be able to use the
+  scroll to navigate vertically on views with a lot of events.
+* mode (optional): Specifies the initial visible window. Available values are:
+  'day' to display the current day, 'week', 'month' and 'fit'.
+  Default value is 'fit' to adjust the visible window such that it fits all items
 * event_open_popup (optional): when set to true, it allows to edit the events
   in a popup. If not (default value), the record is edited changing to form
   view.
@@ -127,6 +135,7 @@ Example:
                           string="Tasks"
                           default_group_by="user_id"
                           event_open_popup="true"
+                          zoomKey="ctrlKey"
                           colors="#ec7063:user_id == false;#2ecb71:kanban_state=='done';">
                 </timeline>
             </field>
@@ -179,7 +188,7 @@ new record with the group and start date linked to the area you clicked in.
 
 .. image:: https://odoo-community.org/website/image/ir.attachment/5784_f2813bd/datas
    :alt: Try me on Runbot
-   :target: https://runbot.odoo-community.org/runbot/162/8.0
+   :target: https://runbot.odoo-community.org/runbot/162/10.0
 
 Known issues / Roadmap
 ----------------------
@@ -234,6 +243,9 @@ Images
 * Adrien Peiffer <adrien.peiffer@acsone.eu>
 * Pedro M. Baeza <pedro.baeza@tecnativa.com>
 * Leonardo Donelli <donelli@webmonks.it>
+* Adrien Didenot <adrien.didenot@horanet.com>
+
+Do not contact contributors directly about support or help with technical issues.
 
 ### Funders
 
@@ -254,7 +266,9 @@ Images
 
 This module is maintained by the OCA.
 
-OCA, or the Odoo Community Association, is a nonprofit organization whose mission is to support the collaborative development of Odoo features and promote its widespread use.
+OCA, or the Odoo Community Association, is a nonprofit organization whose
+mission is to support the collaborative development of Odoo features and
+promote its widespread use.
 
 To contribute to this module, please visit https://odoo-community.org.
 

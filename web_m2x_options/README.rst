@@ -158,6 +158,10 @@ in the field's options dict
 
   Makes many2many_tags buttons that open the linked resource
 
+``no_color_picker`` *boolean* (Default: ``False``)
+
+  Deactivates the color picker on many2many_tags buttons to do nothing (ignored if open is set)
+
 ir.config_parameter options
 
 Now you can disable "Create..." and "Create and Edit..." entry for all widgets in the odoo instance.
@@ -204,6 +208,7 @@ Known issues
 
 Double check that you have no inherited view that remove ``options`` you set on a field !
 If nothing works, add a debugger in the first line of ``get_search_result method`` and enable debug mode in Odoo. When you write something in a many2one field, javascript debugger should pause. If not verify your installation.
+``create_edit`` and ``create`` are now supported by default in Odoo's core (``no_create_edit``, ``no_create``). So, these keywords should be removed when migrating to 11.0 (we keep them in version 10.0 to preserve the compatibility with the previous 10.0 versions of this module)
 
 Roadmap
 

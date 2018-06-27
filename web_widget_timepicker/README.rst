@@ -69,7 +69,11 @@
    :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
    :alt: License: AGPL-3
 
+<<<<<<< HEAD
 
+=======
+===============================
+>>>>>>> 24223bbfdb2ffd6af44454cfd61fb2e8b0d5281e
 Timepicker widget in form views
 ===============================
 
@@ -140,6 +144,7 @@ See the available options at `jquery-timepicker <https://github.com//jonthornton
 .. |formview| image:: ./images/form_view.png
 
 
+<<<<<<< HEAD
 Known issues / Roadmap
 ----------------------
 
@@ -158,6 +163,8 @@ Bug Tracker
 
 
 
+=======
+>>>>>>> 24223bbfdb2ffd6af44454cfd61fb2e8b0d5281e
 Credits
 -------
 
@@ -166,7 +173,7 @@ Credits
 
 
 
-* The module uses the `jquery-timepicker <https://cdnjs.com//libraries//jquery-timepicker>`_ plugin by Jon Thornton. This software is made available under the open source MIT License. © 2014 Jon Thornton and contributors
+* The module uses the `jquery-timepicker plugin <https://github.com//jonthornton//jquery-timepicker#timepicker-plugin-for-jquery>`_ by Jon Thornton. This software is made available under the open source MIT License. © 2014 Jon Thornton and contributors
 
 * Odoo Community Association (OCA)
 
@@ -184,6 +191,7 @@ Credits
 
 
 * Michael Fried <Michael.Fried@vividlab.de>
+<<<<<<< HEAD
 
 [//]: # (copyright)
 
@@ -208,3 +216,22 @@ Everytime, every Odoo DB and customized code can be deployed on local server too
 [//]: # (end addons)
 
 [![chat with us](https://www.shs-av.com/wp-content/chat_with_us.gif)](https://tawk.to/85d4f6e06e68dd4e358797643fe5ee67540e408b)
+=======
+* Kaushal Prajapati <kbprajapati@live.com>
+
+
+Maintainer
+----------
+
+.. image:: https://odoo-community.org/logo.png
+   :alt: Odoo Community Association
+   :target: https://odoo-community.org
+
+This module is maintained by the OCA.
+
+OCA, or the Odoo Community Association, is a nonprofit organization whose
+mission is to support the collaborative development of Odoo features and
+promote its widespread use.
+
+To contribute to this module, please visit https://odoo-community.org.
+>>>>>>> 24223bbfdb2ffd6af44454cfd61fb2e8b0d5281e

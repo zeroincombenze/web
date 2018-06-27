@@ -114,12 +114,20 @@ To use this module, you need to:
    :alt: Try me on Runbot
    :target: https://runbot.odoo-community.org/runbot/162/10.0
 
+<<<<<<< HEAD
 Known issues / Roadmap
 ----------------------
 
 
 
 
+=======
+Known Issues
+============
+Clicking shortcut menu item sometimes doesn't trigger the left side submenu widget
+updating except reloading the whole page.
+Client side may raise TypeError exception randomly: this.active_view is null.
+>>>>>>> 24223bbfdb2ffd6af44454cfd61fb2e8b0d5281e
 
 Bug Tracker
 -----------
@@ -158,6 +166,7 @@ Credits
 * Dennis Sluijk <d.sluijk@onestein.nl>
 * Odoo SA
 * Thomas Binsfeld <thomas.binsfeld@acsone.eu>
+* Henry Zhou (MAXodoo) <zhouhenry@live.com>
 
 ### Funders
 
