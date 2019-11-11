@@ -28,17 +28,18 @@ addons:
 #    Search your sources alias here:
 #      https://github.com/travis-ci/apt-source-whitelist/blob/master/ubuntu.json
     packages:
-      - python-dev
-      - libxml2-dev
-      - libxslt1-dev
-      - zlib1g-dev
-      - python-simplejson
-      - python-ldap
-      - python-psycopg2
+      # - build-essential                 # Already in TravisCI
+      # - curl                            # Already in TravisCI
       - expect-dev
       - libffi-dev
       - libssl-dev
-      - python-setuptools
+      - libxml2-dev
+      - libxslt1-dev
+      # - nodejs                          # Already in TravisCI
+      # - npm                             # Already in TravisCI
+      - python-dev
+      - zlib1g
+      - zlib1g-dev
 
 before_install:
 # Use Zeroincombenze(R) tools
@@ -61,7 +62,7 @@ install:
 
 env:
   global:
-  - TRAVIS_DEBUG_MODE="3"
+  - export TRAVIS_DEBUG_MODE="1"
   - WKHTMLTOPDF_VERSION="0.12.1"
   - VERSION="9.0" TESTS="0" LINT_CHECK="0" ODOO_TNLBOT="0"
 
