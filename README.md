@@ -1,33 +1,15 @@
-[![Build Status](http://runbot.odoo.com/runbot/badge/flat/1/11.0.svg)](http://runbot.odoo.com/runbot)
-[![Tech Doc](http://img.shields.io/badge/11.0-docs-875A7B.svg?style=flat&colorA=8F8F8F)](http://www.odoo.com/documentation/11.0)
-[![Help](http://img.shields.io/badge/11.0-help-875A7B.svg?style=flat&colorA=8F8F8F)](https://www.odoo.com/forum/help-1)
-[![Nightly Builds](http://img.shields.io/badge/11.0-nightly-875A7B.svg?style=flat&colorA=8F8F8F)](http://nightly.odoo.com/)
+[![Runbot Status](https://runbot.odoo-community.org/runbot/badge/flat/162/11.0.svg)](https://runbot.odoo-community.org/runbot/repo/github-com-oca-web-162)
+[![Build Status](https://travis-ci.org/OCA/web.svg?branch=11.0)](https://travis-ci.org/OCA/web)
+[![Coverage Status](https://coveralls.io/repos/OCA/web/badge.png?branch=11.0)](https://coveralls.io/r/OCA/web?branch=11.0)
 
-Odoo
-----
+Web addons for Odoo
+===================
 
-Odoo is a suite of web based open source business apps.
+This project aims to deal with modules related to the webclient of Odoo. You'll find modules that:
 
-The main Odoo Apps include an <a href="https://www.odoo.com/page/crm">Open Source CRM</a>,
-<a href="https://www.odoo.com/page/website-builder">Website Builder</a>,
-<a href="https://www.odoo.com/page/e-commerce">eCommerce</a>,
-<a href="https://www.odoo.com/page/warehouse">Warehouse Management</a>,
-<a href="https://www.odoo.com/page/project-management">Project Management</a>,
-<a href="https://www.odoo.com/page/accounting">Billing &amp; Accounting</a>,
-<a href="https://www.odoo.com/page/point-of-sale">Point of Sale</a>,
-<a href="https://www.odoo.com/page/employees">Human Resources</a>,
-<a href="https://www.odoo.com/page/lead-automation">Marketing</a>,
-<a href="https://www.odoo.com/page/manufacturing">Manufacturing</a>,
-<a href="https://www.odoo.com/page/purchase">Purchase Management</a>,
-<a href="https://www.odoo.com/#apps">...</a>
-
-Odoo Apps can be used as stand-alone applications, but they also integrate seamlessly so you get
-a full-featured <a href="https://www.odoo.com">Open Source ERP</a> when you install several Apps.
+- Add facilities to the UI
+- Add widgets
+- Ease the import/export features
+- Generally add clientside functionality
 
 
-Getting started with Odoo
--------------------------
-For a standard installation please follow the <a href="https://www.odoo.com/documentation/11.0/setup/install.html">Setup instructions</a>
-from the documentation.
-
-Then follow <a href="https://www.odoo.com/documentation/11.0/tutorials.html">the developer tutorials</a>
