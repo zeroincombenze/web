@@ -1,59 +1,58 @@
-openerp.web_widget_color = function (instance) {
+/* global jscolor */
+odoo.define('web.web_widget_color', function (require) {
+    "use strict";
 
-    var _super_getDir = jscolor.getDir.prototype;
-    jscolor.getDir = function () {
-        var dir = _super_getDir.constructor();
-        if (dir.indexOf('web_widget_color') === -1) {
-            jscolor.dir = 'web_widget_color/static/lib/jscolor/';
-        }
-        return jscolor.dir;
-    };
+    var basic_fields = require('web.basic_fields');
+    var field_registry = require('web.field_registry');
+    var ListRenderer = require('web.ListRenderer');
+    var pyUtils = require('web.py_utils');
 
-    instance.web.form.widgets.add('color', 'instance.web.form.FieldColor');
-
-    instance.web.search.fields.add('color', 'instance.web.search.CharField');
-
-    instance.web.form.FieldColor = instance.web.form.FieldChar.extend({
+    var FieldColor = basic_fields.FieldChar.extend({
         template: 'FieldColor',
         widget_class: 'oe_form_field_color',
-        is_syntax_valid: function () {
-            var $input = this.$('input');
-            if (!this.get("effective_readonly") && $input.size() > 0) {
-                var val = $input.val();
-                var isOk = /^#[0-9A-F]{6}$/i.test(val);
-                if (!isOk) {
-                    return false;
-                }
-                try {
-                    this.parse_value(this.$('input').val(), '');
-                    return true;
-                } catch (e) {
-                    return false;
-                }
-            }
-            return true;
+
+        _renderReadonly: function () {
+            // Do Nothing
         },
-        render_value: function () {
-            var show_value = this.format_value(this.get('value'), '');
-            if (!this.get("effective_readonly")) {
-                var $input = this.$el.find('input');
-                $input.val(show_value);
-                $input.css("background-color", show_value)
-                jscolor.init(this.$el[0]);
+
+        _renderEdit: function () {
+            var isRequired = false;
+            if ('required' in this.attrs) {
+                isRequired = pyUtils.py_eval(this.attrs.required);
             } else {
-                this.$(".oe_form_char_content").text(show_value);
-                this.$('div').css("background-color", show_value)
+                isRequired = this.field.required;
             }
-        }
+            this.$input = this.$el.find('input');
+            this.jscolor = new jscolor(this.$input[0], {
+                hash: true,
+                zIndex: 2000,
+                required: isRequired,
+            });
+        },
+    });
+    field_registry.add('color', FieldColor);
+
+    // Deny unselect row if jscolor actived
+    ListRenderer.include({
+        unselectRow: function () {
+            var canUnselect = true;
+            if (this.currentRow !== null) {
+                var record = this.state.data[this.currentRow];
+                var recordWidgets = this.allFieldWidgets[record.id];
+                canUnselect = !_.some(recordWidgets, function (widget) {
+                    var $el = widget.getFocusableElement();
+                    return $el instanceof jQuery &&
+                        $el.hasClass('jscolor-active');
+                });
+            }
+
+            if (canUnselect) {
+                return this._super.apply(this, arguments);
+            }
+
+            return $.Deferred().resolve();
+        },
     });
 
-    /*
-     * Init jscolor for each editable mode on view form
-     */
-    instance.web.FormView.include({
-        to_edit_mode: function () {
-            this._super();
-            jscolor.init(this.$el[0]);
-        }
-    });
-};
+    return FieldColor;
+});

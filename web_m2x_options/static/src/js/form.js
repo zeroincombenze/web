@@ -1,249 +1,252 @@
-/*global openerp, _, $ */
+/* Copyright 2016 0k.io,ACSONE SA/NV
+ *  * License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). */
 
-openerp.web_m2x_options = function (instance) {
-
+odoo.define('web_m2x_options.web_m2x_options', function (require) {
     "use strict";
 
-    var QWeb = instance.web.qweb,
-        _t  = instance.web._t,
-        _lt = instance.web._lt;
+    var core = require('web.core'),
+        data = require('web.data'),
+        Dialog = require('web.Dialog'),
+        FormView = require("web.FormView"),
+        view_dialogs = require('web.view_dialogs'),
+        relational_fields = require('web.relational_fields'),
+        ir_options = require('web_m2x_options.ir_options');
 
-    var OPTIONS = ['web_m2x_options.create',
-                   'web_m2x_options.create_edit',
-                   'web_m2x_options.limit',
-                   'web_m2x_options.search_more',
-                   'web_m2x_options.m2o_dialog',];
+    var _t = core._t,
+        FieldMany2ManyTags = relational_fields.FieldMany2ManyTags,
+        FieldMany2One = relational_fields.FieldMany2One,
+        FieldOne2Many = relational_fields.FieldOne2Many,
+        FormFieldMany2ManyTags = relational_fields.FormFieldMany2ManyTags;
 
-    var get_options = function(widget) {
-        if (!_.isUndefined(widget.view) && _.isUndefined(widget.view.ir_options_loaded)) {
-            widget.view.ir_options_loaded = $.Deferred();
-            widget.view.ir_options = {};
-            (new instance.web.Model("ir.config_parameter"))
-            .query(["key", "value"]).filter([['key', 'in', OPTIONS]])
-            .all().then(function(records) {
-                _(records).each(function(record) {
-                    // don't overwrite from global parameters if already set from context or widget
-                    if (_.isUndefined(widget.view.ir_options[record.key])) {
-                        widget.view.ir_options[record.key] = record.value;
-                    }
-                });
-                widget.view.ir_options_loaded.resolve();
-            });
-            return widget.view.ir_options_loaded;
-        }
-        // options from widget are only available here
-        _(OPTIONS).each(function(option) {
-            var p = option.indexOf('.');
-            if (p < 0) return;
-            var key = option.substring(p + 1); // w/o 'web_m2x_options' prefix
-            // ... hence set from context ...
-            if (!_.isUndefined(widget.view) && !_.isUndefined(widget.view.dataset.context[key])) {
-                widget.view.ir_options[option] = widget.view.dataset.context[key];
-            }
-            // ... and (overwrite) from widget here ...
-            if (!_.isUndefined(widget.view) && !_.isUndefined(widget.options[key])) {
-                widget.view.ir_options[option] = widget.options[key];
-            }
-            // ... but don't overwrite from global parameters above
-        });
-        return $.when();
-    };
-
-    var is_option_set = function(option) {
-        if (_.isUndefined(option)) {
+    function is_option_set (option) {
+        if (_.isUndefined(option))
             return false;
-        }
-        var is_string = typeof option === 'string';
-        var is_bool = typeof option === 'boolean';
-        if (is_string) {
+        if (typeof option === 'string')
             return option === 'true' || option === 'True';
-        } else if (is_bool) {
+        if (typeof option === 'boolean')
             return option;
-        }
-        return false;
+        return false
     };
 
-    instance.web.form.FieldMany2One = instance.web.form.FieldMany2One.extend({
-
-        start: function() {
+    var M2ODialog = Dialog.extend({
+        template: "M2ODialog",
+        init: function (parent, name, value) {
+            this.name = name;
+            this.value = value;
+            this._super(parent, {
+                title: _.str.sprintf(_t("Create a %s"), this.name),
+                size: 'medium',
+                buttons: [{
+                    text: _t('Create'),
+                    classes: 'btn-primary',
+                    click: function () {
+                        if (this.$("input").val() !== '') {
+                            this.trigger_up('quick_create', {value: this.$('input').val()});
+                            this.close(true);
+                        } else {
+                            this.$("input").focus();
+                        }
+                    },
+                }, {
+                    text: _t('Create and edit'),
+                    classes: 'btn-primary',
+                    close: true,
+                    click: function () {
+                        this.trigger_up('search_create_popup', {
+                            view_type: 'form',
+                            value: this.$('input').val(),
+                        });
+                    },
+                }, {
+                    text: _t('Cancel'),
+                    close: true,
+                }],
+            });
+        },
+        start: function () {
+            this.$("p").text(_.str.sprintf(_t("You are creating a new %s, are you sure it does not exist yet?"), this.name));
+            this.$("input").val(this.value);
+        },
+        /**
+         * @override
+         * @param {boolean} isSet
+         */
+        close: function (isSet) {
+            this.isSet = isSet;
             this._super.apply(this, arguments);
-            return get_options(this);
+        },
+        /**
+         * @override
+         */
+        destroy: function () {
+            if (!this.isSet) {
+                this.trigger_up('closed_unset');
+            }
+            this._super.apply(this, arguments);
+        },
+    });
+
+    FieldMany2One.include({
+        _onInputFocusout: function () {
+            var m2o_dialog_opt = is_option_set(this.nodeOptions.m2o_dialog) || _.isUndefined(this.nodeOptions.m2o_dialog) && is_option_set(ir_options['web_m2x_options.m2o_dialog']) || _.isUndefined(this.nodeOptions.m2o_dialog) && _.isUndefined(ir_options['web_m2x_options.m2o_dialog']);
+            if (this.can_create && this.floating && m2o_dialog_opt) {
+                new M2ODialog(this, this.string, this.$input.val()).open();
+            }
         },
 
-        show_error_displayer: function () {
-            var allow_dialog = this.can_create;
-            if (!_.isUndefined(this.view.ir_options['web_m2x_options.m2o_dialog'])) {
-                allow_dialog = is_option_set(this.view.ir_options['web_m2x_options.m2o_dialog']);
-            }
-
-            if (allow_dialog) {
-                new instance.web.form.M2ODialog(this).open();
-            }
-        },
-
-        get_search_result: function (search_val) {
-            var Objects = new instance.web.Model(this.field.relation);
-            var def = $.Deferred();
+        _search: function (search_val) {
             var self = this;
-
-            if (_.isUndefined(this.view))
-                    return this._super.apply(this, arguments);
-
-            var ctx = self.view.dataset.context;
+            var def = $.Deferred();
+            this.orderer.add(def);
 
             // add options limit used to change number of selections record
             // returned.
-
-            if (!_.isUndefined(this.view.ir_options['web_m2x_options.limit'])) {
-                this.limit = parseInt(this.view.ir_options['web_m2x_options.limit']);
+            if (!_.isUndefined(ir_options['web_m2x_options.limit'])) {
+                this.limit = parseInt(ir_options['web_m2x_options.limit'], 10);
             }
 
-            // add options search_more to force enable or disable search_more button
-            this.search_more = false;
-            if (!_.isUndefined(this.view.ir_options['web_m2x_options.search_more'])) {
-                this.search_more = is_option_set(this.view.ir_options['web_m2x_options.search_more']);
+            if (typeof this.nodeOptions.limit === 'number') {
+                this.limit = this.nodeOptions.limit;
             }
 
             // add options field_color and colors to color item(s) depending on field_color value
-            this.field_color = this.options.field_color;
-            this.colors = this.options.colors;
+            this.field_color = this.nodeOptions.field_color;
+            this.colors = this.nodeOptions.colors;
 
-            var dataset = new instance.web.DataSet(this, this.field.relation,
-                                                   self.build_context());
-            var blacklist = this.get_search_blacklist();
-            this.last_query = search_val;
+            var context = this.record.getContext(this.recordParams);
+            var domain = this.record.getDomain(this.recordParams);
 
-            var search_result = this.orderer.add(dataset.name_search(
-                search_val,
-                new instance.web.CompoundDomain(
-                    self.build_domain(), [["id", "not in", blacklist]]),
-                'ilike', this.limit + 1,
-                self.build_context()));
-
-            var create_rights;
-            if (typeof ctx.create === "undefined" ||
-                typeof ctx.create_edit === "undefined" ||
-                typeof this.options.create === "undefined" ||
-                typeof this.options.create_edit === "undefined") {
-                create_rights = new instance.web.Model(this.field.relation).call(
-                    "check_access_rights", ["create", false]);
+            var blacklisted_ids = this._getSearchBlacklist();
+            if (blacklisted_ids.length > 0) {
+                domain.push(['id', 'not in', blacklisted_ids]);
             }
 
-            $.when(search_result, create_rights).then(function (_data, _can_create) {
-                var data = _data[0];
-
-                var can_create = _can_create ? _can_create[0] : null;
-
-                self.can_create = can_create;  // for ``.show_error_displayer()``
-                self.last_search = data;
+            this._rpc({
+                model: this.field.relation,
+                method: "name_search",
+                kwargs: {
+                    name: search_val,
+                    args: domain,
+                    operator: "ilike",
+                    limit: this.limit + 1,
+                    context: context,
+                }
+            }).then(function (result) {
                 // possible selections for the m2o
-                var values = _.map(data, function (x) {
-                    x[1] = x[1].split("\n")[0];
+                var values = _.map(result, function (x) {
+                    x[1] = self._getDisplayName(x[1]);
                     return {
-                        label: _.str.escapeHTML(x[1]),
+                        label: _.str.escapeHTML(x[1].trim()) || data.noDisplayContent,
                         value: x[1],
                         name: x[1],
                         id: x[0],
                     };
                 });
-                
-                // Search result value colors
 
+                // Search result value colors
                 if (self.colors && self.field_color) {
                     var value_ids = [];
                     for (var index in values) {
                         value_ids.push(values[index].id);
                     }
-                    
-                    // RPC request to get field_color from Objects
-                    Objects.query([self.field_color])
-                                .filter([['id', 'in', value_ids]])
-                                .all().done(function (objects) {
-                                    for (var index in objects) {
-                                        for (var index_value in values) {
-                                            if (values[index_value].id == objects[index].id) {
-                                                // Find value in values by comparing ids
-                                                var value = values[index_value];
-                                                
-                                                // Find color with field value as key
-                                                var color = self.colors[objects[index][self.field_color]] || 'black';
-                                                value.label = '<span style="color:'+color+'">'+value.label+'</span>';
-                                                break;
-                                            }
-                                        }
-                                    }
-                                    def.resolve(values);
-                                });
+                    self._rpc({
+                        model: self.field.relation,
+                        method: 'search_read',
+                        fields: [self.field_color],
+                        domain: [['id', 'in', value_ids]]
+                    }).then(function (objects) {
+                        for (var index in objects) {
+                            for (var index_value in values) {
+                                if (values[index_value].id == objects[index].id) {
+                                    // Find value in values by comparing ids
+                                    var value = values[index_value];
+                                    // Find color with field value as key
+                                    var color = self.colors[objects[index][self.field_color]] || 'black';
+                                    value.label = '<span style="color:' + color + '">' + value.label + '</span>';
+                                    break;
+                                }
+                            }
+                        }
+                        def.resolve(values);
+                    })
+
                 }
 
-                // search more... if more results than max
+                // search more... if more results that max
+                var can_search_more = (self.nodeOptions && is_option_set(self.nodeOptions.search_more)),
+                    search_more_undef = _.isUndefined(self.nodeOptions.search_more) && _.isUndefined(ir_options['web_m2x_options.search_more']),
+                    search_more = is_option_set(ir_options['web_m2x_options.search_more']);
 
-                if (values.length > self.limit || self.search_more) {
+                if (values.length > self.limit || search_more) {
                     values = values.slice(0, self.limit);
-                    values.push({
-                        label: _t("Search More..."),
-                        action: function () {
-                            dataset.name_search(
-                                search_val, self.build_domain(),
-                                'ilike', false).done(function (data) {
-                                    self._search_create_popup("search", data);
-                                });
-                        },
-                        classname: 'oe_m2o_dropdown_option'
-                    });
-                }
-
-                // quick create
-
-                var raw_result = _(data.result).map(function (x) {
-                    return x[1];
-                });
-
-                var allow_create = can_create;
-                if (!_.isUndefined(self.view.ir_options['web_m2x_options.create'])) {
-                    allow_create = is_option_set(self.view.ir_options['web_m2x_options.create']);
-                }
-
-                if (allow_create) {
-
-                    if (search_val.length > 0 &&
-                        !_.include(raw_result, search_val)) {
-
+                    if (can_search_more || search_more_undef || search_more) {
                         values.push({
-                            label: _.str.sprintf(
-                                _t('Create "<strong>%s</strong>"'),
-                                $('<span />').text(search_val).html()),
+                            label: _t("Search More..."),
                             action: function () {
-                                self._quick_create(search_val);
+                                // limit = 80 for improving performance, similar
+                                // to Odoo implementation here:
+                                // https://github.com/odoo/odoo/commit/8c3cdce539d87775b59b3f2d5ceb433f995821bf
+                                self._rpc({
+                                        model: self.field.relation,
+                                        method: 'name_search',
+                                        kwargs: {
+                                            name: search_val,
+                                            args: domain,
+                                            operator: "ilike",
+                                            limit: 80,
+                                            context: context,
+                                        },
+                                    })
+                                    .then(self._searchCreatePopup.bind(self, "search"));
                             },
-                            classname: 'oe_m2o_dropdown_option'
+                            classname: 'o_m2o_dropdown_option',
                         });
                     }
                 }
 
-
-                // create...
-
-                var allow_create_edit = can_create;
-                if (!_.isUndefined(self.view.ir_options['web_m2x_options.create_edit'])) {
-                    allow_create_edit = is_option_set(self.view.ir_options['web_m2x_options.create_edit']);
-                }
-
-                if (allow_create_edit) {
-
+                var create_enabled = self.can_create && !self.nodeOptions.no_create;
+                // quick create
+                var raw_result = _.map(result, function (x) { return x[1]; });
+                var quick_create = is_option_set(self.nodeOptions.create),
+                    quick_create_undef = _.isUndefined(self.nodeOptions.create),
+                    m2x_create_undef = _.isUndefined(ir_options['web_m2x_options.create']),
+                    m2x_create = is_option_set(ir_options['web_m2x_options.create']);
+                var show_create = (!self.nodeOptions && (m2x_create_undef || m2x_create)) || (self.nodeOptions && (quick_create || (quick_create_undef && (m2x_create_undef || m2x_create))));
+                if (create_enabled && !self.nodeOptions.no_quick_create &&
+                    search_val.length > 0 && !_.contains(raw_result, search_val) &&
+                    show_create) {
                     values.push({
-                        label: _t("Create and Edit..."),
-                        action: function () {
-                            self._search_create_popup(
-                                "form", undefined,
-                                self._create_context(search_val));
-                        },
-                        classname: 'oe_m2o_dropdown_option'
+                        label: _.str.sprintf(_t('Create "<strong>%s</strong>"'),
+                            $('<span />').text(search_val).html()),
+                        action: self._quickCreate.bind(self, search_val),
+                        classname: 'o_m2o_dropdown_option'
                     });
                 }
-                
+                // create and edit ...
+
+                var create_edit = is_option_set(self.nodeOptions.create) || is_option_set(self.nodeOptions.create_edit),
+                    create_edit_undef = _.isUndefined(self.nodeOptions.create) && _.isUndefined(self.nodeOptions.create_edit),
+                    m2x_create_edit_undef = _.isUndefined(ir_options['web_m2x_options.create_edit']),
+                    m2x_create_edit = is_option_set(ir_options['web_m2x_options.create_edit']);
+                var show_create_edit = (!self.nodeOptions && (m2x_create_edit_undef || m2x_create_edit)) || (self.nodeOptions && (create_edit || (create_edit_undef && (m2x_create_edit_undef || m2x_create_edit))));
+                if (create_enabled && !self.nodeOptions.no_create_edit && show_create_edit) {
+                    var createAndEditAction = function () {
+                        // Clear the value in case the user clicks on discard
+                        self.$('input').val('');
+                        return self._searchCreatePopup("form", false, self._createContext(search_val));
+                    };
+                    values.push({
+                        label: _t("Create and Edit..."),
+                        action: createAndEditAction,
+                        classname: 'o_m2o_dropdown_option',
+                    });
+                } else if (values.length === 0) {
+                    values.push({
+                        label: _t("No results to show..."),
+                    });
+                }
                 // Check if colors specified to wait for RPC
-                if (!(self.field_color && self.colors)){
+                if (!(self.field_color && self.colors)) {
                     def.resolve(values);
                 }
             });
@@ -252,113 +255,122 @@ openerp.web_m2x_options = function (instance) {
         }
     });
 
-    instance.web.form.FieldMany2ManyTags.include({
+    FieldMany2ManyTags.include({
+        events: _.extend({}, FieldMany2ManyTags.prototype.events, {
+            'click .badge': '_onOpenBadge',
+        }),
 
-        start: function() {
-            this._super.apply(this, arguments);
-            return get_options(this);
+        _onDeleteTag: function (event) {
+            var result = this._super.apply(this, arguments);
+            event.stopPropagation();
+            return result;
         },
 
-        show_error_displayer: function () {
-            var allow_dialog = this.can_create;
-            if (!_.isUndefined(this.view.ir_options['web_m2x_options.m2o_dialog'])) {
-                allow_dialog = is_option_set(this.view.ir_options['web_m2x_options.m2o_dialog']);
-            }
-
-            if (allow_dialog) {
-                new instance.web.form.M2ODialog(this).open();
-            }
-        },
-
-        /**
-        * Call this method to search using a string.
-        */
-
-        get_search_result: function(search_val) {
+        _onOpenBadge: function (event) {
             var self = this;
-            var ctx = self.view.dataset.context;
+            var open = (self.nodeOptions && is_option_set(self.nodeOptions.open));
+            if (open) {
+                var context = self.record.getContext(self.recordParams);
+                var id = parseInt($(event.currentTarget).data('id'), 10);
 
-            // add options limit used to change number of selections record
-            // returned.
-
-            if (!_.isUndefined(this.view.ir_options['web_m2x_options.limit'])) {
-                this.limit = parseInt(this.view.ir_options['web_m2x_options.limit']);
-            }
-
-            var dataset = new instance.web.DataSet(this, this.field.relation, self.build_context());
-            var blacklist = this.get_search_blacklist();
-            this.last_query = search_val;
-
-            return this.orderer.add(dataset.name_search(
-                    search_val, new instance.web.CompoundDomain(self.build_domain(), [["id", "not in", blacklist]]),
-                    'ilike', this.limit + 1, self.build_context())).then(function(data) {
-                self.last_search = data;
-                // possible selections for the m2o
-                var values = _.map(data, function(x) {
-                    x[1] = x[1].split("\n")[0];
-                    return {
-                        label: _.str.escapeHTML(x[1]),
-                        value: x[1],
-                        name: x[1],
-                        id: x[0],
-                    };
-                });
-
-                // search more... if more results that max
-                if (values.length > self.limit) {
-                    values = values.slice(0, self.limit);
-                    values.push({
-                        label: _t("Search More..."),
-                        action: function() {
-                            dataset.name_search(search_val, self.build_domain(), 'ilike', false).done(function(data) {
-                                self._search_create_popup("search", data);
-                            });
-                        },
-                        classname: 'oe_m2o_dropdown_option'
-                    });
-                }
-                // quick create
-
-                var allow_create = true;
-                if (!_.isUndefined(self.view.ir_options['web_m2x_options.create'])) {
-                    allow_create = is_option_set(self.view.ir_options['web_m2x_options.create']);
-                }
-
-                if (allow_create) {
-
-                    var raw_result = _(data.result).map(function(x) {return x[1];});
-                    if (search_val.length > 0 && !_.include(raw_result, search_val)) {
-                        values.push({
-                            label: _.str.sprintf(_t('Create "<strong>%s</strong>"'),
-                                $('<span />').text(search_val).html()),
-                            action: function() {
-                                self._quick_create(search_val);
-                            },
-                            classname: 'oe_m2o_dropdown_option'
+                if (self.mode === 'readonly') {
+                    event.preventDefault();
+                    event.stopPropagation();
+                    self._rpc({
+                            model: self.field.relation,
+                            method: 'get_formview_action',
+                            args: [[id]],
+                            context: context,
+                        })
+                        .then(function (action) {
+                            self.trigger_up('do_action', {action: action});
                         });
-                    }
                 }
-                // create...
-
-                var allow_create_edit = true;
-                if (!_.isUndefined(self.view.ir_options['web_m2x_options.create_edit'])) {
-                    allow_create_edit = is_option_set(self.view.ir_options['web_m2x_options.create_edit']);
+                else {
+                    $.when(
+                        self._rpc({
+                            model: self.field.relation,
+                            method: 'get_formview_id',
+                            args: [[id]],
+                            context: context,
+                        }),
+                        self._rpc({
+                            model: self.field.relation,
+                            method: 'check_access_rights',
+                            kwargs: {operation: 'write', raise_exception: false}
+                        })
+                    ).then(function (view_id, write_access) {
+                        var can_write = 'can_write' in self.attrs ? JSON.parse(self.attrs.can_write) : true;
+                        new view_dialogs.FormViewDialog(self, {
+                            res_model: self.field.relation,
+                            res_id: id,
+                            context: context,
+                            title: _t("Open: ") + self.string,
+                            view_id: view_id,
+                            readonly: !can_write || !write_access,
+                            on_saved: function (record, changed) {
+                                if (changed) {
+                                    self._setValue(self.value.data, {forceChange: true});
+                                    self.trigger_up('reload', {db_id: self.value.id});
+                                }
+                            },
+                        }).open();
+                    })
                 }
-
-                if (allow_create_edit) {
-
-                    values.push({
-                        label: _t("Create and Edit..."),
-                        action: function() {
-                            self._search_create_popup("form", undefined, self._create_context(search_val));
-                        },
-                        classname: 'oe_m2o_dropdown_option'
-                    });
-                }
-
-                return values;
-            });
+            }
         },
     });
-};
 
+    FieldOne2Many.include({
+        _onOpenRecord: function (ev) {
+            var self = this;
+            var open = this.nodeOptions.open;
+            if (open && self.mode === 'readonly') {
+                ev.stopPropagation();
+                var id = ev.data.id;
+                var res_id = self.record.data[self.name].data.filter(line => line.id === id)[0].res_id;
+                self._rpc({
+                    model: self.field.relation,
+                    method: 'get_formview_action',
+                    args: [[res_id]],
+                }).then(function (action) {
+                    return self.do_action(action);
+                });
+            } else {
+                return this._super.apply(this, arguments);
+            };
+        },
+    });
+
+    FormFieldMany2ManyTags.include({
+        events: _.extend({}, FormFieldMany2ManyTags.prototype.events, {
+            'click .badge': '_onOpenBadge',
+        }),
+
+        _onOpenBadge: function (event) {
+            var open = is_option_set(this.nodeOptions.open);
+            var no_color_picker = is_option_set(
+                this.nodeOptions.no_color_picker
+            );
+            this._super.apply(this, arguments);
+            if (!open && !no_color_picker) {
+                this._onOpenColorPicker(event);
+            } else {
+                event.preventDefault();
+                event.stopPropagation();
+            }
+        },
+    });
+
+    // Extending class to allow change the limit of o2m registry entries using the
+    // system parameter "web_m2x_options.field_limit_entries".
+    FormView.include({
+        _setSubViewLimit: function (attrs) {
+            this._super(attrs);
+            var limit = ir_options["web_m2x_options.field_limit_entries"];
+            if (!_.isUndefined(limit)) {
+                attrs.limit = parseInt(limit);
+            }
+        },
+    });
+});
