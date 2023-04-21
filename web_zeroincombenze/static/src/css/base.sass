@@ -116,7 +116,7 @@ $zi-req-bg: #b4f898
     background-image: -webkit-radial-gradient(circle, $gradient)
     background-image: -moz-radial-gradient($gradient)
     background-image: -ms-radial-gradient($gradient)
-    background-image: radial-gradient($gradient)
+    background-image: radial-gradient(circle, $gradient)
 
 @mixin radius($radius: 5px)
     -moz-border-radius: $radius
@@ -1708,6 +1708,15 @@ $zi-req-bg: #b4f898
     .oe_form_dropdown_section
         position: relative
         display: inline-block
+    .oe_form_editable
+        .oe_form_required
+            &.oe_form_field_one2many, &.oe_form_field_many2many
+                table.oe_list_content
+                    background-color: #d2d2ff !important
+        .oe_form_invalid
+            &.oe_form_field_one2many, &.oe_form_field_many2many
+                table.oe_list_content
+                    background-color: #ff6666 !important
     .oe_form_invalid
         input, select, textarea
             background-color: #F66 !important
@@ -2228,6 +2237,7 @@ $zi-req-bg: #b4f898
             display: none
     .oe_form_field_one2many,.oe_form_field_many2many
         // TODO: oe_form_field_one2many_list?
+        overflow-x: auto
         > .oe_view_manager
             .oe_list_pager_single_page
                 display: none !important
@@ -2289,6 +2299,11 @@ $zi-req-bg: #b4f898
         .oe_input_icon
             margin-top: 5px
         .oe_form_field
+            &.oe_list_field_handle
+                color: transparent
+            &.oe_readonly
+                padding: 4px 6px 3px
+                text-align: left
             min-width: 0
             max-width: none
             input, textarea
@@ -2299,6 +2314,11 @@ $zi-req-bg: #b4f898
             input, textarea, select
                 min-width: 0
             &.oe_form_field_float,&.oe_form_view_integer
+                &.oe_readonly
+                    padding: 6px 0px 0px
+                    text-align: right
+                span
+                    padding: 0px 6px
                 input
                     text-align: right
                     width: 100% !important

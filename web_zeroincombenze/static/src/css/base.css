@@ -2057,6 +2057,12 @@
   position: relative;
   display: inline-block;
 }
+.openerp .oe_form_editable .oe_form_required.oe_form_field_one2many table.oe_list_content, .openerp .oe_form_editable .oe_form_required.oe_form_field_many2many table.oe_list_content {
+  background-color: #d2d2ff !important;
+}
+.openerp .oe_form_editable .oe_form_invalid.oe_form_field_one2many table.oe_list_content, .openerp .oe_form_editable .oe_form_invalid.oe_form_field_many2many table.oe_list_content {
+  background-color: #ff6666 !important;
+}
 .openerp .oe_form_invalid input, .openerp .oe_form_invalid select, .openerp .oe_form_invalid textarea {
   background-color: #F66 !important;
   border: 1px solid #D00 !important;
@@ -2758,6 +2764,9 @@
 .openerp .oe_form .oe_form_field_one2many > .oe_view_manager .oe_list_pager_single_page {
   display: none;
 }
+.openerp .oe_form_field_one2many, .openerp .oe_form_field_many2many {
+  overflow-x: auto;
+}
 .openerp .oe_form_field_one2many > .oe_view_manager .oe_list_pager_single_page, .openerp .oe_form_field_many2many > .oe_view_manager .oe_list_pager_single_page {
   display: none !important;
 }
@@ -2829,6 +2838,13 @@
   min-width: 0;
   max-width: none;
 }
+.openerp .oe_list.oe_list_editable.oe_editing .oe_form_field.oe_list_field_handle {
+  color: transparent;
+}
+.openerp .oe_list.oe_list_editable.oe_editing .oe_form_field.oe_readonly {
+  padding: 4px 6px 3px;
+  text-align: left;
+}
 .openerp .oe_list.oe_list_editable.oe_editing .oe_form_field input, .openerp .oe_list.oe_list_editable.oe_editing .oe_form_field textarea {
   height: 27px;
   -moz-border-radius: 0;
@@ -2839,6 +2855,13 @@
 }
 .openerp .oe_list.oe_list_editable.oe_editing .oe_form_field input, .openerp .oe_list.oe_list_editable.oe_editing .oe_form_field textarea, .openerp .oe_list.oe_list_editable.oe_editing .oe_form_field select {
   min-width: 0;
+}
+.openerp .oe_list.oe_list_editable.oe_editing .oe_form_field.oe_form_field_float.oe_readonly, .openerp .oe_list.oe_list_editable.oe_editing .oe_form_field.oe_form_view_integer.oe_readonly {
+  padding: 6px 0px 0px;
+  text-align: right;
+}
+.openerp .oe_list.oe_list_editable.oe_editing .oe_form_field.oe_form_field_float span, .openerp .oe_list.oe_list_editable.oe_editing .oe_form_field.oe_form_view_integer span {
+  padding: 0px 6px;
 }
 .openerp .oe_list.oe_list_editable.oe_editing .oe_form_field.oe_form_field_float input, .openerp .oe_list.oe_list_editable.oe_editing .oe_form_field.oe_form_view_integer input {
   text-align: right;
@@ -3378,5 +3401,3 @@ div.ui-widget-overlay {
   background-color: black;
   opacity: 0.6;
 }
-
-/*# sourceMappingURL=base.css.map */

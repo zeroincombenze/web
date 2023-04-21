@@ -152,31 +152,30 @@ def module_topological_sort(modules):
     # outgoing edge: other module depending on this one
 
     # [Tarjan 1976], http://en.wikipedia.org/wiki/Topological_sorting#Algorithms
-    # L ← Empty list that will contain the sorted nodes
+    #L ← Empty list that will contain the sorted nodes
     L = []
-    # S ← Set of all nodes with no outgoing edges (modules on which no other
+    #S ← Set of all nodes with no outgoing edges (modules on which no other
     #    module depends)
     S = set(module for module in modules if module not in dependencies)
 
     visited = set()
-    # function visit(node n)
-
+    #function visit(node n)
     def visit(n):
-        # if n has not been visited yet then
+        #if n has not been visited yet then
         if n not in visited:
-            # mark n as visited
+            #mark n as visited
             visited.add(n)
-            # change: n not web module, can not be resolved, ignore
+            #change: n not web module, can not be resolved, ignore
             if n not in modules: return
-            # for each node m with an edge from m to n do (dependencies of n)
+            #for each node m with an edge from m to n do (dependencies of n)
             for m in modules[n]:
-                # visit(m)
+                #visit(m)
                 visit(m)
-            # add n to L
+            #add n to L
             L.append(n)
-    # for each node n in S do
+    #for each node n in S do
     for n in S:
-        # visit(n)
+        #visit(n)
         visit(n)
     return L
 
@@ -257,7 +256,7 @@ def concat_xml(file_list):
 
         if root is None:
             root = ElementTree.Element(xml.tag)
-        # elif root.tag != xml.tag:
+        #elif root.tag != xml.tag:
         #    raise ValueError("Root tags missmatch: %r != %r" % (root.tag, xml.tag))
 
         for child in xml.getchildren():
@@ -1052,9 +1051,8 @@ class DataSet(openerpweb.Controller):
     @openerpweb.jsonrequest
     def search_read(self, req, model, fields=False, offset=0, limit=False, domain=None, sort=None):
         return self.do_search_read(req, model, fields, offset, limit, domain, sort)
-
-    def do_search_read(self, req, model,
-                       fields=False, offset=0, limit=False, domain=None, sort=None):
+    def do_search_read(self, req, model, fields=False, offset=0, limit=False, domain=None
+                       , sort=None):
         """ Performs a search() followed by a read() (if needed) using the
         provided search criteria
 
@@ -1184,7 +1182,7 @@ class View(openerpweb.Controller):
     @openerpweb.jsonrequest
     def undo_custom(self, req, view_id, reset=False):
         CustomView = req.session.model('ir.ui.view.custom')
-        vcustom = CustomView.search([('user_id', '=', req.session._uid), ('ref_id', '=', view_id)],
+        vcustom = CustomView.search([('user_id', '=', req.session._uid), ('ref_id' ,'=', view_id)],
                                     0, False, False, req.context)
         if vcustom:
             if reset:
@@ -1296,10 +1294,9 @@ class Binary(openerpweb.Controller):
             filename = '%s_%s' % (model.replace('.', '_'), id)
             if filename_field:
                 filename = res.get(filename_field, '') or filename
-            return req.make_response(
-                filecontent, [('Content-Type', content_type),
-                              ('Content-Disposition',
-                               content_disposition(filename, req))])
+            return req.make_response(filecontent,
+                [('Content-Type', 'application/octet-stream'),
+                 ('Content-Disposition', content_disposition(filename, req))])
 
     @openerpweb.httprequest
     def saveas_ajax(self, req, data, token):
@@ -1333,10 +1330,9 @@ class Binary(openerpweb.Controller):
             filename = '%s_%s' % (model.replace('.', '_'), id)
             if filename_field:
                 filename = res.get(filename_field, '') or filename
-            return req.make_response(
-                filecontent, headers=[('Content-Type', content_type),
-                                      ('Content-Disposition',
-                                       content_disposition(filename, req))],
+            return req.make_response(filecontent,
+                headers=[('Content-Type', 'application/octet-stream'),
+                        ('Content-Disposition', content_disposition(filename, req))],
                 cookies={'fileToken': token})
 
     @openerpweb.httprequest
@@ -1374,7 +1370,7 @@ class Binary(openerpweb.Controller):
                 'id':  attachment_id
             }
         except xmlrpclib.Fault, e:
-            args = {'error':e.faultCode}
+            args = {'error':e.faultCode }
         return out % (simplejson.dumps(callback), simplejson.dumps(args))
 
     @openerpweb.httprequest
@@ -1478,7 +1474,7 @@ class Export(openerpweb.Controller):
         return fields
 
     @openerpweb.jsonrequest
-    def get_fields(self, req, model, prefix='', parent_name='',
+    def get_fields(self, req, model, prefix='', parent_name= '',
                    import_compat=True, parent_field_type=None,
                    exclude=None):
 
@@ -1529,7 +1525,7 @@ class Export(openerpweb.Controller):
         return records
 
     @openerpweb.jsonrequest
-    def namelist(self, req,  model, export_id):
+    def namelist(self,req,  model, export_id):
         # TODO: namelist really has no reason to be in Python (although itertools.groupby helps)
         export = req.session.model("ir.exports").read([export_id])[0]
         export_fields_list = req.session.model("ir.exports.line").read(
