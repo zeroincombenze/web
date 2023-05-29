@@ -60,10 +60,10 @@
 
 <t t-name="Login">
     <div class="oe_login">
-        <div class="oe_login_bottom"> </div>
+        <div class="oe_login_bottom"/>
         <div class="oe_login_error_message"/>
         <div class="oe_login_pane">
-            <div class="oe_login_logo"><img src='/web/static/src/img/zeroincombenze2.png'/></div>
+            <div class="oe_login_logo"><img src='/web/static/src/img/logp2.png'/></div>
             <form action="" method="post">
                 <!--
                 <div class="oe_login_dbpane" >
@@ -83,7 +83,8 @@
             </form>
             <div class="oe_login_footer">
                 <a href="#" class="oe_login_manage_db">Manage Databases</a> |
-                <a href="http://www.openerp.com" target="_blank">Powered by <span>OpenERP</span></a>
+                <a href="https://www.zeroincombenze.it"
+                   target="_blank">Powered by <span>Zeroincombenze(R)</span></a>
             </div>
         </div>
     </div>
@@ -438,7 +439,7 @@
 
     <div class="oe_about">
       <a class="oe_activate_debug_mode oe_right" href="?debug" style="background-color: white; padding:2px 6px; border-radius: 10px;">Activate the developer mode</a>
-      <img class="oe_logo" src="/web/static/src/img/zeroincombenze2.png"/>
+      <img class="oe_logo" src="/web/static/src/img/logo2.png"/>
       <h3>Version <t t-esc="version_info.server_version"/></h3>
 
       <div class="oe_bottom">
