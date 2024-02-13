@@ -1,15 +1,10 @@
-# [antoniov: 2022-11-09]
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-*.a
-*.obj
-*.exe
 /.venv
 /.pytest_cache
 
 # C extensions
-*.o
 *.so
 
 # Distribution / packaging
@@ -20,7 +15,6 @@ build/
 develop-eggs/
 dist/
 eggs/
-lib/
 lib64/
 parts/
 sdist/
@@ -34,13 +28,6 @@ var/
 pip-log.txt
 pip-delete-this-directory.txt
 
-# generated for windows installer?
-install/win32/*.bat
-install/win32/meta.py# needed only when building for win32
-setup/win32/static/less/
-setup/win32/static/wkhtmltopdf/
-setup/win32/static/postgresql*.exe
-
 # Unit test / coverage reports
 htmlcov/
 .tox/
@@ -48,16 +35,12 @@ htmlcov/
 .cache
 nosetests.xml
 coverage.xml
-cover/
-
-# Node + Javascripts packages
-*.json
 
 # Translations
 *.mo
 
 # Pycharm
-.idea/
+.idea
 
 # Eclipse
 .settings
@@ -72,10 +55,6 @@ cover/
 # Django stuff:
 *.log
 
-# Komodo
-*.komodoproject
-.komodotools
-
 # Mr Developer
 .mr.developer.cfg
 .project
@@ -87,31 +66,9 @@ cover/
 # Sphinx documentation
 docs/_build/
 
-# Bazaar
-.bzr/
-
-# hg stuff
-*.orig
-
 # Backup files
 *~
 *.swp
 
-# Junks
-*.bak
-*.out
-*.conf
-.tmp
-.tracehis
-.tracehistory
-test*.pdf
-tmp.*
-example_*
-/.settings/
-/share/
-stdout.log
-*.oca
-*.z0i
-#
-# tools building path
+# OCA rules
 !static/lib/
